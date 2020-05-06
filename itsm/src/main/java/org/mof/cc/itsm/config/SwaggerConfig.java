@@ -3,7 +3,6 @@ package org.mof.cc.itsm.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import io.swagger.models.Contact;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -37,8 +36,8 @@ public class SwaggerConfig {
 
     private ApiInfo getApiInfo(){
         return new ApiInfoBuilder()
-                .title("SpringBoot整合Swagger2")
-                .description("SpringBoot整合Swagger2，详细信息……")
+                .title("itsm api")
+                .description("Swagger2工具生成")
                 .version("1.0")
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")
