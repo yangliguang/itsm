@@ -1,0 +1,30 @@
+version: "3"
+services:
+  redis6.0.0:
+    image: redis:6.0.0
+    ports:
+      - "16379:6379"
+    deploy:
+      restart_policy:
+        condition: always
+
+  mysql5.6.47:
+    image: mysql:5.6.47
+    ports:
+      - "13306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+    deploy:
+      restart_policy:
+        condition: always
+
+  itsm1.0:
+    image: itsm
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis6.0.0
+      - mysql5.6.47
+    deploy:
+      restart_policy:
+        condition: always

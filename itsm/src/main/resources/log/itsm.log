@@ -1,0 +1,155 @@
+2020-05-01 18:18:05,045 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 18848 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 18:18:05,052 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 18:18:05,052 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-05-01 18:18:06,546 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 18:18:06,547 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 18:18:06,548 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 18:18:06,642 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 18:18:06,728 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 18:18:07,074 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-01 18:18:08,524 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 18:18:08,878 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 18:18:08,912 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 18:18:08,982 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 18:18:09,342 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 18:18:09,345 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 18:18:09,347 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 18:18:09,372 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 18:18:09,394 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 4.878 seconds (JVM running for 6.437)
+2020-05-01 18:18:40,692 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 18:18:40,900 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_user ( password, fullname, isused, username ) VALUES ( ?, ?, ?, ? ) 
+2020-05-01 18:18:40,986 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 12345678(String), 杨立广(String), true(Boolean), yanglg(String)
+2020-05-01 18:18:40,995 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:18:41,012 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_user ( password, fullname, isused, username ) VALUES ( ?, ?, ?, ? ) 
+2020-05-01 18:18:41,013 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: jj123(String), 蒋辉(String), true(Boolean), jianghui(String)
+2020-05-01 18:18:41,021 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:18:41,023 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_user ( password, fullname, isused, username ) VALUES ( ?, ?, ?, ? ) 
+2020-05-01 18:18:41,024 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: xiaofu1234(String), 付岩松(String), true(Boolean), fuys(String)
+2020-05-01 18:18:41,031 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:18:41,033 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_user ( password, fullname, isused, username ) VALUES ( ?, ?, ?, ? ) 
+2020-05-01 18:18:41,034 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: yuyu3223(String), 董宇(String), true(Boolean), dongyu(String)
+2020-05-01 18:18:41,039 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:18:53,632 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-01 18:18:53,635 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), {"quetion": "青海系统无法登陆","questionDetail": "new某某用户登陆，提示异常，信息如下：Exception","askUser": "test"}(String), 1(Integer), 问题管理(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-05-01 18:18:53,641 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:19:59,179 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-01 18:19:59,181 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), {"quetion": "青海系统无法登陆","questionDetail": "new某某用户登陆，提示异常，信息如下：Exception","askUser": "test"}(String), 1(Integer), 登陆模块(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-05-01 18:19:59,188 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-01 18:23:09,109 RMI TCP Connection(11)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-01 18:23:09,134 RMI TCP Connection(11)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-01 20:04:11,975 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 17392 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 20:04:11,978 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 20:04:11,979 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid,redis
+2020-05-01 20:04:13,666 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:04:13,668 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 20:04:13,668 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 20:04:13,763 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:04:13,912 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 20:04:14,234 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-01 20:04:16,012 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 20:04:16,371 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 20:04:16,389 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 20:04:16,424 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 20:04:16,620 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 20:04:16,621 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 20:04:16,623 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 20:04:16,647 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:04:16,667 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 5.228 seconds (JVM running for 6.494)
+2020-05-01 20:06:34,697 Thread-7 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-01 20:06:34,704 Thread-7 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-01 20:06:35,168 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 17392 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 20:06:35,168 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 20:06:35,168 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid,redis
+2020-05-01 20:06:35,620 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-05-01 20:06:35,712 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:06:35,713 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 20:06:35,713 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 20:06:35,734 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:06:35,756 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 20:06:35,841 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-05-01 20:06:36,128 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 20:06:36,271 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 20:06:36,272 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 20:06:36,277 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 20:06:36,335 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 20:06:36,336 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 20:06:36,337 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 20:06:36,347 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:06:36,353 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.231 seconds (JVM running for 146.18)
+2020-05-01 20:08:08,396 Thread-13 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-05-01 20:08:08,401 Thread-13 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-05-01 20:08:08,851 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 17392 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 20:08:08,851 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 20:08:08,852 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid,redis
+2020-05-01 20:08:09,366 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-05-01 20:08:09,455 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:08:09,455 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 20:08:09,455 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 20:08:09,476 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:08:09,495 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 20:08:09,593 restartedMain INFO (DruidDataSource.java:994) - {dataSource-3} inited
+2020-05-01 20:08:09,863 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 20:08:10,022 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 20:08:10,023 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 20:08:10,027 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 20:08:10,079 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 20:08:10,081 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 20:08:10,083 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 20:08:10,091 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:08:10,097 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.287 seconds (JVM running for 239.925)
+2020-05-01 20:08:19,095 http-nio-8080-exec-1 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 20:08:19,267 http-nio-8080-exec-1 INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-01 20:08:19,269 http-nio-8080-exec-1 INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-01 20:08:50,291 http-nio-8080-exec-3 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-05-01 20:09:01,390 http-nio-8080-exec-4 INFO (VerificationCodeServiceImpl.java:34) - 生成验证码1：000000
+2020-05-01 22:31:42,462 RMI TCP Connection(52)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-3} closing ...
+2020-05-01 22:31:42,501 RMI TCP Connection(52)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-3} closed
+2020-05-01 22:37:48,168 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 2864 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 22:37:48,173 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 22:37:48,174 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid,redis
+2020-05-01 22:37:50,708 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 22:37:50,710 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 22:37:50,710 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 22:37:50,839 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 22:37:51,015 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 22:37:51,367 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-01 22:37:53,648 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 22:37:54,335 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 22:37:54,357 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 22:37:54,402 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 22:37:54,764 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 22:37:54,768 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 22:37:54,771 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 22:37:54,815 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 22:37:54,852 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 7.4 seconds (JVM running for 9.129)
+2020-05-01 22:38:18,184 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 22:38:18,447 http-nio-8080-exec-2 INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-01 22:38:18,449 http-nio-8080-exec-2 INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-01 22:38:19,848 http-nio-8080-exec-2 INFO (VerificationCodeServiceImpl.java:33) - 生成验证码1：000000
+2020-05-01 22:39:05,874 RMI TCP Connection(9)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-01 22:39:05,886 RMI TCP Connection(9)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-01 22:40:17,347 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 7256 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-05-01 22:40:17,351 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 22:40:17,352 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid,redis
+2020-05-01 22:40:19,055 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 22:40:19,056 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-01 22:40:19,056 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 22:40:19,181 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-01 22:40:19,315 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-01 22:40:19,599 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-01 22:40:21,460 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-01 22:40:21,964 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-01 22:40:21,982 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-01 22:40:22,019 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-01 22:40:22,239 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-01 22:40:22,241 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-01 22:40:22,242 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-01 22:40:22,271 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 22:40:22,298 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 5.623 seconds (JVM running for 6.921)
+2020-05-01 22:40:27,983 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 22:40:28,430 http-nio-8080-exec-2 INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-01 22:40:28,434 http-nio-8080-exec-2 INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-01 22:40:29,610 http-nio-8080-exec-2 INFO (VerificationCodeServiceImpl.java:33) - 生成验证码1：397899
+2020-05-01 22:42:00,317 http-nio-8080-exec-5 INFO (VerificationCodeServiceImpl.java:33) - 生成验证码1：076049
+2020-05-01 22:42:36,533 RMI TCP Connection(10)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-01 22:42:36,558 RMI TCP Connection(10)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed

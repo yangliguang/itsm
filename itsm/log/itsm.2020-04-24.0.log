@@ -1,0 +1,66 @@
+2020-04-24 22:37:39,318 main INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 18484 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 22:37:39,320 main INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 22:37:41,288 main INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.176 seconds (JVM running for 2.761)
+2020-04-24 22:37:48,069 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 22:37:48,070 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 22:37:48,128 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 22:37:48,623 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 22:37:48,624 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 22:37:48,626 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 22:37:49,299 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 22:37:49,300 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 22:37:49,304 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 22:37:50,257 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 22:37:50,257 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 22:37:50,260 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 23:19:18,864 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19332 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:19:18,864 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:27:08,502 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19964 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:27:08,503 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:29:55,911 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 20736 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:29:55,912 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:37:09,858 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 20684 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:37:09,861 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-24 23:38:22,937 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 13040 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:38:22,938 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:43:54,232 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19592 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:43:54,233 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:43:56,878 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.859 seconds (JVM running for 3.491)
+2020-04-24 23:46:06,458 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19592 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:06,458 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:07,454 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.043 seconds (JVM running for 134.067)
+2020-04-24 23:46:07,514 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19592 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:07,515 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:21,585 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 11448 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:21,585 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:24,177 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.802 seconds (JVM running for 3.467)
+2020-04-24 23:46:24,222 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 11448 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:24,222 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:51,454 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 11448 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:51,454 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:52,352 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.934 seconds (JVM running for 31.642)
+2020-04-24 23:46:57,205 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 13668 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:46:57,205 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:46:59,778 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.783 seconds (JVM running for 3.438)
+2020-04-24 23:47:08,390 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 23:47:08,391 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 23:47:08,466 http-nio-8080-exec-8 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 23:47:09,330 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-24 23:47:09,331 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-24 23:47:09,335 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-24 23:47:26,047 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19108 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:47:26,048 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:48:35,342 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7836 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:48:35,343 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:48:37,915 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.819 seconds (JVM running for 3.494)
+2020-04-24 23:48:46,781 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7836 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:48:46,781 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:49:03,576 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7836 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:49:03,577 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:49:04,545 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.014 seconds (JVM running for 30.125)
+2020-04-24 23:59:35,753 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7836 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:59:35,753 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:59:36,607 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.888 seconds (JVM running for 662.186)
+2020-04-24 23:59:45,661 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 15524 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-24 23:59:45,662 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-24 23:59:48,325 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.866 seconds (JVM running for 3.474)

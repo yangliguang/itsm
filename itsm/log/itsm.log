@@ -1,0 +1,303 @@
+2020-04-26 09:29:01,665 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 6024 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:29:01,668 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 09:31:36,061 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16288 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:31:36,062 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 09:32:37,512 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 9076 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:32:37,512 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 09:39:29,316 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 11340 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:39:29,316 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 09:47:18,428 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 18216 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:47:18,429 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 09:55:47,593 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 18440 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 09:55:47,594 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:01:39,666 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10228 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:01:39,666 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:03:44,140 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 3480 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:03:44,141 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:07:41,074 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 13516 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:07:41,075 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:08:49,594 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 2364 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:08:49,595 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:11:38,441 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 8012 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:11:38,442 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:11:40,402 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.146 seconds (JVM running for 2.749)
+2020-04-26 10:15:10,531 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 8012 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:15:10,531 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:15:11,258 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.785 seconds (JVM running for 213.605)
+2020-04-26 10:15:21,913 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16820 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:15:21,914 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:15:23,811 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.096 seconds (JVM running for 2.705)
+2020-04-26 10:18:30,276 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16820 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:18:30,276 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:18:31,044 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.812 seconds (JVM running for 189.937)
+2020-04-26 10:18:45,147 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 17576 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:18:45,147 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:19:31,845 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19208 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:19:31,846 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:22:14,689 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 15648 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:22:14,690 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:42:30,184 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 3296 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:42:30,185 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 10:48:26,403 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19380 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 10:48:26,404 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-26 11:13:31,111 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21220 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 11:13:31,114 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 11:14:34,475 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 15660 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 11:14:34,478 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 11:20:04,188 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 18964 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 11:20:04,191 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 11:20:05,915 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.016 seconds (JVM running for 2.711)
+2020-04-26 13:44:26,940 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 18964 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:44:26,940 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:44:27,739 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.83 seconds (JVM running for 8664.534)
+2020-04-26 13:46:54,830 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 17152 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:46:54,833 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:46:56,608 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.122 seconds (JVM running for 3.087)
+2020-04-26 13:48:09,597 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 20668 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:48:09,602 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:48:19,355 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 10.215 seconds (JVM running for 11.278)
+2020-04-26 13:50:50,483 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 12976 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:50:50,494 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:50:52,256 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.079 seconds (JVM running for 2.8)
+2020-04-26 13:53:03,256 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 12976 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:53:03,257 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:53:03,896 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.667 seconds (JVM running for 134.44)
+2020-04-26 13:54:32,957 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 19756 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:54:32,960 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:54:34,847 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.206 seconds (JVM running for 2.94)
+2020-04-26 13:55:57,364 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21432 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:55:57,367 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:55:59,017 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 1.96 seconds (JVM running for 2.743)
+2020-04-26 13:57:23,966 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 22428 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:57:23,969 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:57:25,807 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.138 seconds (JVM running for 2.835)
+2020-04-26 13:59:04,221 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 22760 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 13:59:04,223 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 13:59:05,997 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.072 seconds (JVM running for 2.756)
+2020-04-26 14:02:06,091 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21876 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:02:06,094 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:02:07,913 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.126 seconds (JVM running for 2.822)
+2020-04-26 14:04:41,680 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 20048 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:04:41,684 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:04:44,247 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 3.014 seconds (JVM running for 3.96)
+2020-04-26 14:35:47,756 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 17928 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:35:47,759 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:35:50,105 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.677 seconds (JVM running for 3.395)
+2020-04-26 14:42:19,431 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 22488 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:42:19,434 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:42:21,522 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.427 seconds (JVM running for 3.243)
+2020-04-26 14:42:56,265 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 6900 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:42:56,278 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:42:58,345 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.422 seconds (JVM running for 3.333)
+2020-04-26 14:47:25,881 http-nio-8080-exec-2 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-26 14:47:25,881 http-nio-8080-exec-2 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-26 14:47:25,893 http-nio-8080-exec-2 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-26 14:50:51,163 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21480 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:50:51,168 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:51:21,163 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 9656 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 14:51:21,166 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 14:51:23,116 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.255 seconds (JVM running for 2.937)
+2020-04-26 15:01:38,361 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:01:38,366 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:01:40,445 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.395 seconds (JVM running for 3.095)
+2020-04-26 15:03:40,780 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:03:40,780 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:03:41,455 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.701 seconds (JVM running for 124.105)
+2020-04-26 15:03:47,417 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:03:47,418 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:03:47,948 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.556 seconds (JVM running for 130.599)
+2020-04-26 15:03:59,017 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:03:59,017 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:03:59,529 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.536 seconds (JVM running for 142.179)
+2020-04-26 15:05:22,703 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:05:22,703 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:05:23,236 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.554 seconds (JVM running for 225.886)
+2020-04-26 15:05:39,371 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:05:39,372 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:05:39,910 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.56 seconds (JVM running for 242.56)
+2020-04-26 15:05:53,059 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:05:53,060 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:05:53,550 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.511 seconds (JVM running for 256.2)
+2020-04-26 15:06:00,408 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 10000 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:06:00,408 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:06:00,894 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.508 seconds (JVM running for 263.544)
+2020-04-26 15:08:46,852 http-nio-8080-exec-4 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-26 15:08:46,853 http-nio-8080-exec-4 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-26 15:08:46,869 http-nio-8080-exec-4 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-26 15:13:29,650 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:13:29,662 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:13:31,775 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.445 seconds (JVM running for 3.321)
+2020-04-26 15:13:49,665 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-26 15:13:49,665 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-26 15:13:49,768 http-nio-8080-exec-9 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-26 15:14:21,526 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 15:14:21,526 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 15:14:22,127 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.634 seconds (JVM running for 53.672)
+2020-04-26 16:02:02,698 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:02:02,698 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:02:02,924 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:02:02,966 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:02:02,967 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:02:02,967 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:02:02,967 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:02:02,980 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:02:02,980 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 280 ms
+2020-04-26 16:02:02,992 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:02:03,035 restartedMain INFO (DruidDataSource.java:994) - {dataSource-15} inited
+2020-04-26 16:02:03,127 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:02:03,136 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:02:03,177 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:02:03,190 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:02:03,199 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:02:03,200 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.525 seconds (JVM running for 2914.745)
+2020-04-26 16:02:03,201 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:05:09,748 Thread-148 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:05:09,753 Thread-148 INFO (DruidDataSource.java:2029) - {dataSource-15} closing ...
+2020-04-26 16:05:09,766 Thread-148 INFO (DruidDataSource.java:2101) - {dataSource-15} closed
+2020-04-26 16:05:10,105 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:05:10,106 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:05:10,376 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:05:10,415 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:05:10,416 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:05:10,416 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:05:10,416 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:05:10,428 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:05:10,429 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 321 ms
+2020-04-26 16:05:10,444 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:05:10,485 restartedMain INFO (DruidDataSource.java:994) - {dataSource-16} inited
+2020-04-26 16:05:10,590 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:05:10,598 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:05:10,649 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:05:10,662 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:05:10,667 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:05:10,668 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.583 seconds (JVM running for 3102.213)
+2020-04-26 16:05:10,669 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:05:16,190 Thread-158 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:05:16,191 Thread-158 INFO (DruidDataSource.java:2029) - {dataSource-16} closing ...
+2020-04-26 16:05:16,196 Thread-158 INFO (DruidDataSource.java:2101) - {dataSource-16} closed
+2020-04-26 16:05:16,538 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:05:16,538 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:05:16,757 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:05:16,796 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:05:16,796 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:05:16,796 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:05:16,796 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:05:16,807 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:05:16,807 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 267 ms
+2020-04-26 16:05:16,820 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:05:16,854 restartedMain INFO (DruidDataSource.java:994) - {dataSource-17} inited
+2020-04-26 16:05:16,938 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:05:16,947 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:05:16,988 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:05:16,999 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:05:17,007 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:05:17,007 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.49 seconds (JVM running for 3108.553)
+2020-04-26 16:05:17,009 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:05:43,563 http-nio-8080-exec-7 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 16:05:43,564 http-nio-8080-exec-7 INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-04-26 16:05:43,567 http-nio-8080-exec-7 INFO (FrameworkServlet.java:547) - Completed initialization in 2 ms
+2020-04-26 16:05:43,575 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:43) - ===插入用户开始===
+2020-04-26 16:05:43,576 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:44) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-26 16:05:43,581 http-nio-8080-exec-7 INFO (DemoUserDaoImpl.java:48) - ===插入用户成功！===
+2020-04-26 16:05:47,024 http-nio-8080-exec-8 INFO (EventController.java:42) - 处理单个事件插入请求，待插入数据：Event(id=null, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-26 16:05:47,035 http-nio-8080-exec-8 INFO (EventController.java:45) - 成功插入一条记录：Event(id=53, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-26 16:06:20,231 Thread-168 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:06:20,232 Thread-168 INFO (DruidDataSource.java:2029) - {dataSource-17} closing ...
+2020-04-26 16:06:20,237 Thread-168 INFO (DruidDataSource.java:2101) - {dataSource-17} closed
+2020-04-26 16:06:20,522 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:06:20,523 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:06:20,768 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:06:20,811 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:06:20,811 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:06:20,812 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:06:20,812 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:06:20,829 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:06:20,829 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 305 ms
+2020-04-26 16:06:20,850 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:06:20,890 restartedMain INFO (DruidDataSource.java:994) - {dataSource-18} inited
+2020-04-26 16:06:20,972 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:06:20,980 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:06:21,023 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:06:21,033 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:06:21,039 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:06:21,039 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.541 seconds (JVM running for 3172.585)
+2020-04-26 16:06:21,041 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:06:41,011 Thread-178 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:06:41,014 Thread-178 INFO (DruidDataSource.java:2029) - {dataSource-18} closing ...
+2020-04-26 16:06:41,027 Thread-178 INFO (DruidDataSource.java:2101) - {dataSource-18} closed
+2020-04-26 16:06:41,320 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:06:41,321 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:06:41,560 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:06:41,597 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:06:41,597 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:06:41,597 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:06:41,597 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:06:41,610 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:06:41,610 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 288 ms
+2020-04-26 16:06:41,624 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:06:41,663 restartedMain INFO (DruidDataSource.java:994) - {dataSource-19} inited
+2020-04-26 16:06:41,749 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:06:41,757 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:06:41,799 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:06:41,811 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:06:41,817 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:06:41,817 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.515 seconds (JVM running for 3193.362)
+2020-04-26 16:06:41,819 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:12:10,803 Thread-188 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:12:10,805 Thread-188 INFO (DruidDataSource.java:2029) - {dataSource-19} closing ...
+2020-04-26 16:12:10,809 Thread-188 INFO (DruidDataSource.java:2101) - {dataSource-19} closed
+2020-04-26 16:12:11,147 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21868 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:12:11,148 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:12:11,407 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-26 16:12:11,452 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:12:11,452 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:12:11,452 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:12:11,453 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:12:11,466 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:12:11,466 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 316 ms
+2020-04-26 16:12:11,485 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:12:11,527 restartedMain INFO (DruidDataSource.java:994) - {dataSource-20} inited
+2020-04-26 16:12:11,623 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:12:11,632 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:12:11,680 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:12:11,692 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:12:11,698 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:12:11,699 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 0.571 seconds (JVM running for 3523.244)
+2020-04-26 16:12:11,700 restartedMain INFO (ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+2020-04-26 16:12:13,597 RMI TCP Connection(114)-127.0.0.1 INFO (SpringApplicationAdminMXBeanRegistrar.java:159) - Application shutdown requested.
+2020-04-26 16:12:13,601 RMI TCP Connection(114)-127.0.0.1 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:12:13,601 RMI TCP Connection(114)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-20} closing ...
+2020-04-26 16:12:13,607 RMI TCP Connection(114)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-20} closed
+2020-04-26 16:38:13,062 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7264 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-26 16:38:13,067 restartedMain INFO (SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+2020-04-26 16:38:13,137 restartedMain INFO (DeferredLog.java:225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-26 16:38:13,137 restartedMain INFO (DeferredLog.java:225) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-26 16:38:14,026 restartedMain INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+2020-04-26 16:38:14,033 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:38:14,033 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-26 16:38:14,034 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-26 16:38:14,101 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-26 16:38:14,101 restartedMain INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 964 ms
+2020-04-26 16:38:14,174 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-26 16:38:14,420 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-26 16:38:14,920 restartedMain INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:38:15,000 restartedMain INFO (WelcomePageHandlerMapping.java:54) - Adding welcome page: class path resource [static/index.html]
+2020-04-26 16:38:15,168 restartedMain INFO (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2020-04-26 16:38:15,201 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-26 16:38:15,227 restartedMain INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path '/itsm'
+2020-04-26 16:38:15,230 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmRun in 2.478 seconds (JVM running for 3.197)
+2020-04-26 16:38:21,668 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 16:38:21,669 http-nio-8080-exec-2 INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2020-04-26 16:38:21,675 http-nio-8080-exec-2 INFO (FrameworkServlet.java:547) - Completed initialization in 6 ms
+2020-04-26 16:38:25,748 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:41) - ===插入用户开始===
+2020-04-26 16:38:25,748 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:42) - DemoUser(id=0, username=yanglg, fullname=杨立广, password=12345678, createTime=null, modifyTime=null)
+2020-04-26 16:38:25,893 http-nio-8080-exec-6 INFO (DemoUserDaoImpl.java:46) - ===插入用户成功！===
+2020-04-26 16:38:36,108 http-nio-8080-exec-3 INFO (EventController.java:42) - 处理单个事件插入请求，待插入数据：Event(id=null, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-26 16:38:36,126 http-nio-8080-exec-3 INFO (EventController.java:45) - 成功插入一条记录：Event(id=54, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-26 16:38:38,311 http-nio-8080-exec-2 INFO (EventController.java:57) - 处理事件批量插入请求，待插入6条数据：[Event(id=null, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=人员无法维护, callerName=李四, callerDepartment=青海财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=2, operatorPhone=88179997-02, operatorName=fuys, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=收不到审批, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=支付失败, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=无法清算, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=报表问题, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)]
+2020-04-26 16:38:38,335 http-nio-8080-exec-2 INFO (EventController.java:60) - 成功插入6条事件
+2020-04-26 16:38:40,396 http-nio-8080-exec-4 INFO (EventController.java:72) - 处理查询所有事件请求
+2020-04-26 16:38:47,656 RMI TCP Connection(7)-127.0.0.1 INFO (SpringApplicationAdminMXBeanRegistrar.java:159) - Application shutdown requested.
+2020-04-26 16:38:47,669 RMI TCP Connection(7)-127.0.0.1 INFO (ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-26 16:38:47,671 RMI TCP Connection(7)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-26 16:38:47,678 RMI TCP Connection(7)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed

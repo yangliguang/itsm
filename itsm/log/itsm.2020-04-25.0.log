@@ -1,0 +1,174 @@
+2020-04-25 00:03:14,356 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 15524 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-25 00:03:14,360 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 00:03:15,333 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.014 seconds (JVM running for 210.482)
+2020-04-25 00:04:17,255 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 15524 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-25 00:04:17,255 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 00:04:18,093 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.873 seconds (JVM running for 273.242)
+2020-04-25 00:04:25,543 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21984 (C:\Users\CCDC\Documents\workspace\sts\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\itsm)
+2020-04-25 00:04:25,544 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 00:04:28,074 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.722 seconds (JVM running for 3.331)
+2020-04-25 21:35:07,973 restartedMain INFO (StartupInfoLogger.java:48) - Starting Run on DESKTOP-N1ER5LJ with PID 5372 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:35:07,975 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:35:10,781 restartedMain INFO (StartupInfoLogger.java:57) - Started Run in 3.136 seconds (JVM running for 3.952)
+2020-04-25 21:39:58,647 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:39:58,648 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:40:01,221 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.78 seconds (JVM running for 3.471)
+2020-04-25 21:44:47,036 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:44:47,037 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:44:48,018 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.019 seconds (JVM running for 290.269)
+2020-04-25 21:46:45,290 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:46:45,290 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:46:46,157 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.901 seconds (JVM running for 408.408)
+2020-04-25 21:47:22,763 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:47:22,763 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:47:23,806 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.077 seconds (JVM running for 446.056)
+2020-04-25 21:48:09,397 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:48:09,397 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:48:10,232 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.867 seconds (JVM running for 492.483)
+2020-04-25 21:48:27,338 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:48:27,338 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:48:28,164 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.858 seconds (JVM running for 510.415)
+2020-04-25 21:48:39,146 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:48:39,147 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:48:39,966 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.851 seconds (JVM running for 522.216)
+2020-04-25 21:51:44,334 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:51:44,335 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:51:45,166 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.865 seconds (JVM running for 707.416)
+2020-04-25 21:52:37,591 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:52:37,592 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:52:38,497 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.938 seconds (JVM running for 760.747)
+2020-04-25 21:56:55,272 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:56:55,272 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:56:56,107 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.867 seconds (JVM running for 1018.359)
+2020-04-25 21:57:56,080 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:57:56,081 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:57:56,891 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.842 seconds (JVM running for 1079.141)
+2020-04-25 21:59:26,060 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:59:26,060 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:59:26,869 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.842 seconds (JVM running for 1169.12)
+2020-04-25 21:59:38,877 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 21:59:38,877 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 21:59:39,659 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.814 seconds (JVM running for 1181.911)
+2020-04-25 22:00:00,899 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:00:00,899 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:00:02,092 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 1.232 seconds (JVM running for 1204.342)
+2020-04-25 22:00:20,068 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:00:20,069 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:00:20,863 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.826 seconds (JVM running for 1223.114)
+2020-04-25 22:01:16,188 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:01:16,188 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:01:17,059 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.906 seconds (JVM running for 1279.311)
+2020-04-25 22:01:24,010 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:01:24,011 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:01:24,805 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.827 seconds (JVM running for 1287.055)
+2020-04-25 22:06:59,757 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:06:59,757 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:07:00,573 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.846 seconds (JVM running for 1622.824)
+2020-04-25 22:07:59,669 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:07:59,669 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:11:11,232 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:11:11,232 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:11:41,008 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:11:41,008 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:11:46,292 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:11:46,292 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:11:47,114 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.854 seconds (JVM running for 1909.365)
+2020-04-25 22:12:13,674 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:12:13,675 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:12:14,494 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.85 seconds (JVM running for 1936.746)
+2020-04-25 22:14:05,270 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:14:05,270 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:14:06,087 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.847 seconds (JVM running for 2048.337)
+2020-04-25 22:16:56,442 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:16:56,442 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:17:02,610 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:17:02,610 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:17:37,062 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:17:37,063 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:18:46,787 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:18:46,788 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:18:55,932 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:18:55,932 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:19:20,391 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7436 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:19:20,391 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:19:36,738 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 21300 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:19:36,739 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:20:22,677 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:20:22,678 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:20:25,156 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 2.667 seconds (JVM running for 3.34)
+2020-04-25 22:20:51,484 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:20:51,484 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:21:45,153 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:21:45,153 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:21:46,053 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.937 seconds (JVM running for 84.237)
+2020-04-25 22:25:12,006 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:25:12,007 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:25:12,931 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.958 seconds (JVM running for 291.116)
+2020-04-25 22:25:22,009 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:25:22,009 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:25:22,863 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.886 seconds (JVM running for 301.048)
+2020-04-25 22:25:39,083 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:25:39,083 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:25:39,974 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.923 seconds (JVM running for 318.159)
+2020-04-25 22:25:49,965 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:25:49,966 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:25:53,298 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:25:53,298 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:26:06,863 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:26:06,864 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:26:14,105 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:26:14,105 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:26:30,555 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:26:30,556 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:26:31,371 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.855 seconds (JVM running for 369.555)
+2020-04-25 22:27:47,612 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:27:47,612 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:28:02,418 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:28:02,419 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:28:05,992 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:28:05,993 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:28:06,808 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.86 seconds (JVM running for 464.993)
+2020-04-25 22:28:47,623 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:28:47,623 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:28:48,462 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.875 seconds (JVM running for 506.646)
+2020-04-25 22:30:24,234 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:30:24,235 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:30:25,122 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.921 seconds (JVM running for 603.306)
+2020-04-25 22:30:39,156 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:30:39,156 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:30:39,970 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.847 seconds (JVM running for 618.154)
+2020-04-25 22:30:51,070 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:30:51,070 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:30:51,880 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.845 seconds (JVM running for 630.065)
+2020-04-25 22:31:02,040 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:31:02,040 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:31:02,845 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.841 seconds (JVM running for 641.029)
+2020-04-25 22:32:56,632 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:32:56,632 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:33:29,587 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:33:29,587 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:33:36,829 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:33:36,829 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:33:37,665 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.893 seconds (JVM running for 795.85)
+2020-04-25 22:34:18,464 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:34:18,464 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:34:20,671 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:34:20,671 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:34:27,961 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:34:27,961 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:42:37,095 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:42:37,096 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:42:37,940 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.896 seconds (JVM running for 1336.125)
+2020-04-25 22:43:56,497 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 16200 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:43:56,498 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 22:43:57,315 restartedMain INFO (StartupInfoLogger.java:57) - Started ItsmRun in 0.849 seconds (JVM running for 1415.5)
+2020-04-25 22:57:19,341 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 7860 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 22:57:19,342 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 23:05:28,986 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 5472 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 23:05:28,987 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 23:08:31,135 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 23880 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 23:08:31,136 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 23:11:19,068 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 24252 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 23:11:19,068 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default
+2020-04-25 23:14:43,509 restartedMain INFO (StartupInfoLogger.java:48) - Starting ItsmRun on DESKTOP-N1ER5LJ with PID 22796 (C:\Users\CCDC\git\repository\itsm\target\classes started by CCDC in C:\Users\CCDC\git\repository\itsm)
+2020-04-25 23:14:43,510 restartedMain INFO (SpringApplication.java:637) - No active profile set, falling back to default profiles: default

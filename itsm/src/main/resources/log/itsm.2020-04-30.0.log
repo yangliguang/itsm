@@ -1,0 +1,1471 @@
+2020-04-30 10:35:08,584 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 10:35:08,592 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 10:35:08,593 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 10:35:10,416 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 10:35:10,417 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 10:35:10,418 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 10:35:10,520 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 10:35:10,611 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 10:35:10,998 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 10:35:11,723 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 10:35:12,634 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 10:35:12,651 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 10:35:12,688 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 10:35:12,876 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 10:35:12,878 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 10:35:12,880 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 10:35:12,900 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 10:35:12,926 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 4.893 seconds (JVM running for 6.08)
+2020-04-30 10:35:30,077 http-nio-8080-exec-1 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 10:35:30,243 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_question ( ask_user, question_detail, quetion ) VALUES ( ?, ?, ? ) 
+2020-04-30 10:35:30,330 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: test(String), new某某用户登陆，提示异常，信息如下：Exception(String), 青海系统无法登陆(String)
+2020-04-30 10:35:30,350 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 10:36:09,116 http-nio-8080-exec-3 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 11, column: 23] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 10:36:40,821 http-nio-8080-exec-5 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 11, column: 23] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 10:38:27,140 http-nio-8080-exec-6 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 11, column: 21] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 14:39:49,795 http-nio-8080-exec-10 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 11, column: 21] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 14:44:45,959 http-nio-8080-exec-12 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: (PushbackInputStream); line: 11, column: 21] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 14:46:11,963 http-nio-8080-exec-13 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: (PushbackInputStream); line: 11, column: 21] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 14:46:28,167 http-nio-8080-exec-16 ERROR (OperLogController.java:50) - 插入出错：{}
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'class org.mof.cc.itsm.entity.OperLog' with value '1255750347118456834' Cause: java.lang.IllegalArgumentException: argument type mismatch
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy94.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$dedc3860.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'class org.mof.cc.itsm.entity.OperLog' with value '1255750347118456834' Cause: java.lang.IllegalArgumentException: argument type mismatch
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.setBeanProperty(BeanWrapper.java:185)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.set(BeanWrapper.java:59)
+	at org.apache.ibatis.reflection.MetaObject.setValue(MetaObject.java:140)
+	at com.baomidou.mybatisplus.core.MybatisDefaultParameterHandler.populateKeys(MybatisDefaultParameterHandler.java:181)
+	at com.baomidou.mybatisplus.core.MybatisDefaultParameterHandler.processBatch(MybatisDefaultParameterHandler.java:123)
+	at com.baomidou.mybatisplus.core.MybatisDefaultParameterHandler.<init>(MybatisDefaultParameterHandler.java:52)
+	at com.baomidou.mybatisplus.core.MybatisXMLLanguageDriver.createParameterHandler(MybatisXMLLanguageDriver.java:34)
+	at com.baomidou.mybatisplus.core.MybatisXMLLanguageDriver.createParameterHandler(MybatisXMLLanguageDriver.java:28)
+	at org.apache.ibatis.session.Configuration.newParameterHandler(Configuration.java:563)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.<init>(BaseStatementHandler.java:69)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.<init>(PreparedStatementHandler.java:41)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.<init>(RoutingStatementHandler.java:46)
+	at org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:576)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:52)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.reflection.invoker.MethodInvoker.invoke(MethodInvoker.java:44)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.setBeanProperty(BeanWrapper.java:180)
+	... 93 common frames omitted
+2020-04-30 14:48:04,596 Thread-7 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 14:48:04,602 Thread-7 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 14:48:05,237 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:48:05,238 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:48:05,238 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:48:05,829 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 14:48:05,961 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:48:05,962 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:48:05,962 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:48:05,987 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:48:06,015 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:48:06,117 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-04-30 14:48:06,467 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:48:06,617 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:48:06,618 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:48:06,625 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:48:06,699 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:48:06,700 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:48:06,701 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:48:06,708 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:48:06,718 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.537 seconds (JVM running for 15179.873)
+2020-04-30 14:48:53,587 http-nio-8080-exec-3 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 14:48:53,619 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_param, oper_type, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:48:53,623 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), requestParam(String), 1(Integer), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:48:53,631 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 14:50:03,966 Thread-13 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-04-30 14:50:03,978 Thread-13 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-04-30 14:50:04,589 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:50:04,589 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:50:04,589 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:50:05,075 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 14:50:05,168 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:50:05,169 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:50:05,169 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:50:05,192 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:50:05,214 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:50:05,294 restartedMain INFO (DruidDataSource.java:994) - {dataSource-3} inited
+2020-04-30 14:50:05,587 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:50:05,741 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:50:05,742 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:50:05,750 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:50:05,818 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:50:05,819 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:50:05,820 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:50:05,827 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:50:05,835 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.292 seconds (JVM running for 15298.99)
+2020-04-30 14:50:26,575 Thread-18 INFO (DruidDataSource.java:2029) - {dataSource-3} closing ...
+2020-04-30 14:50:26,584 Thread-18 INFO (DruidDataSource.java:2101) - {dataSource-3} closed
+2020-04-30 14:50:27,255 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:50:27,256 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:50:27,256 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:50:27,711 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 14:50:27,806 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:50:27,806 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:50:27,806 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:50:27,832 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:50:27,853 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:50:27,930 restartedMain INFO (DruidDataSource.java:994) - {dataSource-4} inited
+2020-04-30 14:50:28,240 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:50:28,360 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:50:28,361 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:50:28,367 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:50:28,414 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:50:28,416 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:50:28,417 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:50:28,423 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:50:28,434 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.219 seconds (JVM running for 15321.589)
+2020-04-30 14:50:32,465 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 14:50:32,495 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:50:32,498 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:50:32,505 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 14:51:01,832 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:51:01,834 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:51:01,908 http-nio-8080-exec-3 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy140.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$dedc3860.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:51:02,682 http-nio-8080-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:51:02,684 http-nio-8080-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:51:02,689 http-nio-8080-exec-5 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy140.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$dedc3860.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:51:50,357 http-nio-8080-exec-7 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:51:50,359 http-nio-8080-exec-7 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:51:50,365 http-nio-8080-exec-7 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy140.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$dedc3860.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:53:05,355 Thread-23 INFO (DruidDataSource.java:2029) - {dataSource-4} closing ...
+2020-04-30 14:53:05,361 Thread-23 INFO (DruidDataSource.java:2101) - {dataSource-4} closed
+2020-04-30 14:53:05,944 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:53:05,944 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:53:05,945 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:53:06,349 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 14:53:06,439 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:53:06,439 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:53:06,440 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:53:06,461 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:53:06,480 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:53:06,548 restartedMain INFO (DruidDataSource.java:994) - {dataSource-5} inited
+2020-04-30 14:53:06,808 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:53:06,957 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:53:06,957 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:53:06,963 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:53:07,022 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:53:07,024 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:53:07,025 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:53:07,032 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:53:07,043 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.134 seconds (JVM running for 15480.197)
+2020-04-30 14:53:16,556 Thread-28 INFO (DruidDataSource.java:2029) - {dataSource-5} closing ...
+2020-04-30 14:53:16,563 Thread-28 INFO (DruidDataSource.java:2101) - {dataSource-5} closed
+2020-04-30 14:53:16,982 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 14424 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:53:16,982 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:53:16,982 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:53:17,340 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 14:53:17,418 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:53:17,418 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:53:17,418 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:53:17,438 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:53:17,458 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:53:17,520 restartedMain INFO (DruidDataSource.java:994) - {dataSource-6} inited
+2020-04-30 14:53:17,725 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:53:17,860 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:53:17,861 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:53:17,866 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:53:17,908 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:53:17,909 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:53:17,909 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:53:17,915 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:53:17,924 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 0.972 seconds (JVM running for 15491.078)
+2020-04-30 14:53:19,360 RMI TCP Connection(276)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-6} closing ...
+2020-04-30 14:53:19,368 RMI TCP Connection(276)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-6} closed
+2020-04-30 14:54:04,189 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 3192 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:54:04,192 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:54:04,192 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:54:05,763 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:54:05,766 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:54:05,766 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:54:05,886 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:54:05,974 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:54:06,300 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 14:54:06,997 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:54:07,969 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:54:07,989 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:54:08,028 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:54:08,240 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:54:08,242 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:54:08,244 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:54:08,264 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:54:08,288 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 4.69 seconds (JVM running for 5.648)
+2020-04-30 14:54:12,099 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 14:54:12,228 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:54:12,313 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:54:12,367 http-nio-8080-exec-2 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy94.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$e3286375.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:55:44,513 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 14:55:44,520 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 14:55:50,003 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 15048 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 14:55:50,005 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 14:55:50,006 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 14:55:51,282 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:55:51,284 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 14:55:51,284 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 14:55:51,378 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 14:55:51,455 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 14:55:51,735 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 14:55:52,326 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 14:55:53,167 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 14:55:53,183 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 14:55:53,215 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 14:55:53,418 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 14:55:53,420 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 14:55:53,423 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 14:55:53,442 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 14:55:53,462 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 3.847 seconds (JVM running for 4.707)
+2020-04-30 14:55:57,419 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 14:55:57,556 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:55:57,637 http-nio-8080-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:55:57,695 http-nio-8080-exec-2 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy94.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$cfa70bda.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:56:39,008 http-nio-8080-exec-4 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:56:39,011 http-nio-8080-exec-4 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), test(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:56:39,015 http-nio-8080-exec-4 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 14:59:03,656 http-nio-8080-exec-7 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:59:03,657 http-nio-8080-exec-7 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.QuestionController(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:59:03,662 http-nio-8080-exec-7 ERROR (OperLogController.java:50) - 插入出错：{}
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+### The error may exist in org/mof/cc/itsm/mapper/OperLogMapper.java (best guess)
+### The error may involve org.mof.cc.itsm.mapper.OperLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_oper_log  ( method, request_method,    request_param,  oper_type, title,   oper_location, oper_ip, oper_name, business_type,  status )  VALUES  ( ?, ?,    ?,  ?, ?,   ?, ?, ?, ?,  ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+; Data truncation: Data too long for column 'request_method' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:58)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:61)
+	at com.sun.proxy.$Proxy94.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:104)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl.saveOperLog(OperLogServiceImpl.java:36)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$FastClassBySpringCGLIB$$a3cbfa5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685)
+	at org.mof.cc.itsm.service.impl.OperLogServiceImpl$$EnhancerBySpringCGLIB$$cfa70bda.saveOperLog(<generated>)
+	at org.mof.cc.itsm.controller.OperLogController.saveOperLog(OperLogController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'request_method' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy125.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:54)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy123.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 65 common frames omitted
+2020-04-30 14:59:32,856 http-nio-8080-exec-9 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 14:59:32,858 http-nio-8080-exec-9 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 14:59:32,865 http-nio-8080-exec-9 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:02:18,083 http-nio-8080-exec-12 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:02:18,085 http-nio-8080-exec-12 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:02:18,088 http-nio-8080-exec-12 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:02:56,151 RMI TCP Connection(13)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 15:02:56,159 RMI TCP Connection(13)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 15:03:31,753 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 22668 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 15:03:31,757 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 15:03:31,757 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 15:03:33,070 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:03:33,071 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 15:03:33,071 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 15:03:33,174 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 15:03:33,271 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 15:03:33,669 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 15:03:34,289 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 15:03:35,221 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 15:03:35,239 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 15:03:35,275 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 15:03:35,475 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 15:03:35,476 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 15:03:35,478 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 15:03:35,499 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:03:35,521 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 4.187 seconds (JVM running for 5.14)
+2020-04-30 15:03:39,194 http-nio-8080-exec-1 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 15:03:39,322 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:03:39,412 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:03:39,417 http-nio-8080-exec-1 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:04:05,889 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:04:05,891 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:04:05,895 http-nio-8080-exec-3 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:04:48,930 http-nio-8080-exec-4 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 12, column: 18] (through reference chain: org.mof.cc.itsm.entity.OperLog["responseJson"])]
+2020-04-30 15:05:03,675 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:05:03,677 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), requestParam(String), 1(Integer), 问题管理(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:05:03,682 http-nio-8080-exec-6 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:06:11,444 http-nio-8080-exec-9 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: (PushbackInputStream); line: 11, column: 21] (through reference chain: org.mof.cc.itsm.entity.OperLog["requestParam"])]
+2020-04-30 15:06:51,659 http-nio-8080-exec-11 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:06:51,661 http-nio-8080-exec-11 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), {"quetion": "青海系统无法登陆","questionDetail": "new某某用户登陆，提示异常，信息如下：Exception","askUser": "test"}(String), 1(Integer), 问题管理(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:06:51,665 http-nio-8080-exec-11 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:18:10,306 http-nio-8080-exec-14 INFO (DemoUserDaoImpl.java:41) - ===插入用户开始===
+2020-04-30 15:18:10,310 http-nio-8080-exec-14 INFO (DemoUserDaoImpl.java:42) - DemoUser(id=0, username=yanglg, fullname=杨立广elastic, password=12345678, createTime=null, modifyTime=null)
+2020-04-30 15:18:10,375 http-nio-8080-exec-14 INFO (DemoUserDaoImpl.java:46) - ===插入用户成功！===
+2020-04-30 15:18:28,478 http-nio-8080-exec-15 INFO (EventController.java:41) - 处理单个事件插入请求，待插入数据：Event(id=null, event=系统无法登陆, callerName=null, callerDepartment=null, callerPhone=null, callerContact=null, operatorId=null, operatorPhone=null, operatorName=null, eventTime=null, eventProcess=null, eventState=null, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-30 15:18:28,505 http-nio-8080-exec-15 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_event ( event ) VALUES ( ? ) 
+2020-04-30 15:18:28,507 http-nio-8080-exec-15 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 系统无法登陆(String)
+2020-04-30 15:18:28,512 http-nio-8080-exec-15 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:18:28,514 http-nio-8080-exec-15 INFO (EventController.java:44) - 成功插入一条记录：Event(id=74, event=系统无法登陆, callerName=null, callerDepartment=null, callerPhone=null, callerContact=null, operatorId=null, operatorPhone=null, operatorName=null, eventTime=null, eventProcess=null, eventState=null, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-04-30 15:18:51,753 http-nio-8080-exec-16 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_oper_log ( method, request_method, request_param, oper_type, title, response_json, oper_location, oper_ip, oper_url, oper_name, business_type, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-30 15:18:51,756 http-nio-8080-exec-16 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: POST(String), org.mof.cc.itsm.controller.QuestionController.save()(String), {"quetion": "青海系统无法登陆","questionDetail": "new某某用户登陆，提示异常，信息如下：Exception","askUser": "test"}(String), 1(Integer), 问题管理elastic哈哈(String), {"status":"success"}(String), 内网(String), 127.0.0.1(String), /api/question/(String), admin(String), 1(String), 1(Integer)
+2020-04-30 15:18:51,763 http-nio-8080-exec-16 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-04-30 15:26:58,552 Thread-7 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 15:26:58,563 Thread-7 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 15:26:59,216 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 22668 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 15:26:59,217 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 15:26:59,217 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 15:26:59,812 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 15:26:59,949 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:26:59,949 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 15:26:59,950 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 15:26:59,972 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 15:26:59,993 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 15:27:00,062 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-04-30 15:27:00,391 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 15:27:00,542 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 15:27:00,543 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 15:27:00,561 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 15:27:00,693 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 15:27:00,694 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 15:27:00,697 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 15:27:00,709 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:27:00,724 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.575 seconds (JVM running for 1410.344)
+2020-04-30 15:30:48,975 Thread-13 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-04-30 15:30:49,008 Thread-13 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-04-30 15:30:50,379 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 22668 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 15:30:50,379 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 15:30:50,379 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 15:30:51,779 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 15:30:51,931 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:30:51,931 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 15:30:51,931 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 15:30:51,966 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 15:30:51,999 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 15:30:52,235 restartedMain INFO (DruidDataSource.java:994) - {dataSource-3} inited
+2020-04-30 15:30:52,722 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 15:30:52,899 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 15:30:52,900 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 15:30:52,909 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 15:30:53,019 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 15:30:53,021 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 15:30:53,024 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 15:30:53,031 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 15:30:53,043 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 3.031 seconds (JVM running for 1642.662)
+2020-04-30 15:30:56,032 RMI TCP Connection(35)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-3} closing ...
+2020-04-30 15:30:56,039 RMI TCP Connection(35)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-3} closed
+2020-04-30 17:34:47,367 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 5248 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 17:34:47,371 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 17:34:47,371 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 17:34:48,815 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:34:48,816 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 17:34:48,816 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 17:34:48,918 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 17:34:49,003 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 17:34:49,368 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 17:34:50,884 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 17:34:51,188 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 17:34:51,206 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 17:34:51,243 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 17:34:51,440 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 17:34:51,442 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 17:34:51,443 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 17:34:51,461 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:34:51,480 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 4.581 seconds (JVM running for 5.67)
+2020-04-30 17:36:20,074 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 17:36:20,083 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 17:36:51,566 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 21752 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 17:36:51,572 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 17:36:51,573 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 17:36:53,450 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:36:53,451 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 17:36:53,452 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 17:36:53,560 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 17:36:53,660 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 17:36:54,062 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 17:36:55,825 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 17:36:56,298 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 17:36:56,322 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 17:36:56,374 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 17:36:56,596 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 17:36:56,598 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 17:36:56,599 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 17:36:56,624 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:36:56,654 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 5.711 seconds (JVM running for 7.501)
+2020-04-30 17:37:31,937 http-nio-8080-exec-3 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 17:37:31,974 http-nio-8080-exec-3 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-04-30 17:37:48,859 http-nio-8080-exec-2 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-04-30 17:38:01,775 http-nio-8080-exec-4 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'index' for method parameter of type String]
+2020-04-30 17:40:16,360 Thread-7 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 17:40:16,370 Thread-7 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-04-30 17:40:16,872 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 21752 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 17:40:16,873 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 17:40:16,873 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 17:40:17,504 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 17:40:17,608 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:40:17,608 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 17:40:17,608 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 17:40:17,633 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 17:40:17,663 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 17:40:17,745 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-04-30 17:40:18,154 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 17:40:18,349 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 17:40:18,351 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 17:40:18,379 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 17:40:18,569 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 17:40:18,570 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 17:40:18,571 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 17:40:18,579 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:40:18,590 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 1.774 seconds (JVM running for 209.438)
+2020-04-30 17:40:28,610 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 17:40:28,624 http-nio-8080-exec-2 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'index' is not present]
+2020-04-30 17:41:48,980 Thread-13 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-04-30 17:41:48,988 Thread-13 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-04-30 17:41:49,943 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 21752 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 17:41:49,943 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 17:41:49,944 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 17:41:50,740 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 17:41:50,874 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:41:50,875 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 17:41:50,875 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 17:41:50,902 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 17:41:50,940 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 17:41:51,037 restartedMain INFO (DruidDataSource.java:994) - {dataSource-3} inited
+2020-04-30 17:41:51,630 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 17:41:51,791 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 17:41:51,792 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 17:41:51,802 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 17:41:51,880 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 17:41:51,882 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 17:41:51,884 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 17:41:51,891 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:41:51,904 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 2.037 seconds (JVM running for 302.751)
+2020-04-30 17:41:56,047 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 17:41:56,062 http-nio-8080-exec-2 WARN (AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'index' is not present]
+2020-04-30 17:44:19,502 Thread-18 INFO (DruidDataSource.java:2029) - {dataSource-3} closing ...
+2020-04-30 17:44:19,517 Thread-18 INFO (DruidDataSource.java:2101) - {dataSource-3} closed
+2020-04-30 17:44:20,531 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 21752 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 17:44:20,532 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 17:44:20,532 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 17:44:21,698 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-04-30 17:44:21,851 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:44:21,851 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 17:44:21,851 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 17:44:21,881 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 17:44:21,922 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 17:44:22,067 restartedMain INFO (DruidDataSource.java:994) - {dataSource-4} inited
+2020-04-30 17:44:22,577 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 17:44:22,905 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 17:44:22,907 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 17:44:22,918 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 17:44:23,031 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 17:44:23,032 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 17:44:23,034 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 17:44:23,046 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 17:44:23,062 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 2.616 seconds (JVM running for 453.91)
+2020-04-30 17:44:36,020 http-nio-8080-exec-5 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 17:45:57,542 http-nio-8080-exec-5 ERROR (EsController.java:53) - 添加索引出错：{}
+java.lang.IllegalArgumentException: indices are mandatory
+	at org.elasticsearch.client.IndicesRequestConverters.indicesExist(IndicesRequestConverters.java:469)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1760)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1749)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:1087)
+	at org.mof.cc.itsm.service.impl.EsServiceImpl.isIndexExists(EsServiceImpl.java:59)
+	at org.mof.cc.itsm.controller.EsController.createIndex(EsController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2020-04-30 17:46:37,533 http-nio-8080-exec-2 ERROR (EsController.java:53) - 添加索引出错：{}
+java.lang.IllegalArgumentException: indices are mandatory
+	at org.elasticsearch.client.IndicesRequestConverters.indicesExist(IndicesRequestConverters.java:469)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1760)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1749)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:1087)
+	at org.mof.cc.itsm.service.impl.EsServiceImpl.isIndexExists(EsServiceImpl.java:59)
+	at org.mof.cc.itsm.controller.EsController.createIndex(EsController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2020-04-30 17:47:33,117 http-nio-8080-exec-6 ERROR (EsController.java:53) - 添加索引出错：{}
+java.lang.IllegalArgumentException: indices are mandatory
+	at org.elasticsearch.client.IndicesRequestConverters.indicesExist(IndicesRequestConverters.java:469)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1760)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1749)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:1087)
+	at org.mof.cc.itsm.service.impl.EsServiceImpl.isIndexExists(EsServiceImpl.java:59)
+	at org.mof.cc.itsm.controller.EsController.createIndex(EsController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2020-04-30 18:15:13,010 Thread-23 INFO (DruidDataSource.java:2029) - {dataSource-4} closing ...
+2020-04-30 18:15:13,027 Thread-23 INFO (DruidDataSource.java:2101) - {dataSource-4} closed
+2020-04-30 18:17:12,608 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on DESKTOP-N1ER5LJ with PID 18220 (C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm\target\classes started by CCDC in C:\Users\CCDC\Documents\workspace\sts\maven.1588084174390\itsm)
+2020-04-30 18:17:12,613 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-04-30 18:17:12,614 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: druid
+2020-04-30 18:17:14,884 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-30 18:17:14,885 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-04-30 18:17:14,886 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-30 18:17:15,014 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-04-30 18:17:15,263 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-04-30 18:17:15,649 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-04-30 18:17:17,637 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-30 18:17:18,083 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-04-30 18:17:18,119 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-04-30 18:17:18,249 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-04-30 18:17:18,591 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-04-30 18:17:18,594 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-04-30 18:17:18,596 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-04-30 18:17:18,619 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-30 18:17:18,663 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 6.694 seconds (JVM running for 8.088)
+2020-04-30 18:18:02,940 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-30 18:20:17,862 http-nio-8080-exec-2 ERROR (EsController.java:55) - 添加索引出错：{}
+java.lang.IllegalArgumentException: indices are mandatory
+	at org.elasticsearch.client.IndicesRequestConverters.indicesExist(IndicesRequestConverters.java:469)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1760)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1749)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:1087)
+	at org.mof.cc.itsm.service.impl.EsServiceImpl.isIndexExists(EsServiceImpl.java:59)
+	at org.mof.cc.itsm.controller.EsController.createIndex(EsController.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2020-04-30 18:20:33,647 RMI TCP Connection(11)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-04-30 18:20:33,688 RMI TCP Connection(11)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
