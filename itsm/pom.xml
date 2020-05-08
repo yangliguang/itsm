@@ -126,15 +126,21 @@
 			<artifactId>quartz</artifactId>
 		</dependency>
 		<dependency>
-    <groupId>org.quartz-scheduler</groupId>
-    <artifactId>quartz-jobs</artifactId>
-  </dependency>   
-  <!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
-<dependency>
-    <groupId>com.mchange</groupId>
-    <artifactId>c3p0</artifactId>
-    <version>0.9.5.5</version>
-</dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz-jobs</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+		<dependency>
+			<groupId>com.mchange</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.5.5</version>
+		</dependency>
+		<!--注意： 这里的版本,要和部署在服务器上的版本号一致-->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.7.0</version>
+        </dependency>
 
 
 	</dependencies>

@@ -19,7 +19,6 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
  * @author yangliguang
  * @since 2020年5月7日 上午11:30:11
  */
-@Configuration
 public class SchedulerConfig {
 
 	@Bean(name = "SchedulerFactory")

@@ -19,7 +19,6 @@ import com.github.pagehelper.PageInfo;
  * @author yangliguang
  * @since 2020年5月7日 下午4:39:16
  */
-@Service
 public class JobAndTriggerServiceImpl implements JobAndTriggerService {
 	@Autowired
 	private JobAndTriggerMapper jobAndTriggerMapper;

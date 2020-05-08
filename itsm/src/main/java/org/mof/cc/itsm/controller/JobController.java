@@ -38,7 +38,6 @@ import com.github.pagehelper.PageInfo;
  * @author yangliguang
  * @since 2020年5月7日 下午4:37:58
  */
-@RestController
 @Api(value = "/job", tags = "任务模块")
 @RequestMapping("/api/job")
 public class JobController {
