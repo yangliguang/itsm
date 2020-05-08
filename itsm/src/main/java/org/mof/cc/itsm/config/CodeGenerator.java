@@ -91,7 +91,7 @@ public class CodeGenerator {
 		strategy.setNaming(NamingStrategy.underline_to_camel);
 		// 需要生成的表
 //        strategy.setInclude(new String[] { "t_event","t_duty","t_user" });
-		strategy.setInclude(new String[] { "t_oper_log" });
+		strategy.setInclude(new String[] { "t_user_history" });
 		// 排除生成的表
 		// strategy.setExclude(new String[]{"test"});
 		strategy.setEntityLombokModel(true);
