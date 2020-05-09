@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OperLogServiceImpl extends ServiceImpl<OperLogMapper, OperLog> implements OperLogService {
+	@Override
 	public OperLog queryOperLogById(int id) {
 		return super.getById(id);
 	}

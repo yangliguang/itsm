@@ -23,6 +23,7 @@ public class JobAndTriggerServiceImpl implements JobAndTriggerService {
 	@Autowired
 	private JobAndTriggerMapper jobAndTriggerMapper;
 	
+	@Override
 	public PageInfo<JobAndTrigger> getJobAndTriggerDetails(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);
 		List<JobAndTrigger> list = jobAndTriggerMapper.getJobAndTriggerDetails();

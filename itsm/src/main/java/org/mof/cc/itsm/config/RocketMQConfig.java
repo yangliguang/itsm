@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
  * @author yangliguang
  * @since 2020年5月8日 下午2:59:56
  */
-@Configuration
 public class RocketMQConfig {
 
 	/**

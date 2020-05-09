@@ -30,7 +30,7 @@ public class ExchangeServiceImpl implements ExchangeService {
 	
 	@Autowired
 	private MQProducerUtil producer;
-	private MQConsumerUtil consumer;
+//	private MQConsumerUtil consumer;
 	
 	
 	/*

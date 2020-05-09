@@ -1089,3 +1089,875 @@ Caused by: java.lang.IllegalStateException: Active Scheduler of name 'DefaultQua
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
 	... 57 common frames omitted
+2020-05-09 14:34:49,971 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 2488 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 14:34:49,976 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 14:34:49,976 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 14:34:54,540 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:34:54,970 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:34:55,362 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:34:55,363 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-09 14:34:55,371 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 14:34:55,372 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 14:34:55,929 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 14:34:56,807 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 14:34:57,374 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 14:35:07,772 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:35:08,788 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:35:08,796 restartedMain WARN (AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+2020-05-09 14:35:09,103 restartedMain INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 14:35:09,109 restartedMain INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-09 14:35:09,114 restartedMain INFO (DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-05-09 14:35:09,179 restartedMain ERROR (SpringApplication.java:826) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:681)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:511)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.updateTopicSubscribeInfoWhenSubscriptionChanged(DefaultMQPushConsumerImpl.java:868)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.start(DefaultMQPushConsumerImpl.java:649)
+	at org.apache.rocketmq.client.consumer.DefaultMQPushConsumer.start(DefaultMQPushConsumer.java:693)
+	at org.mof.cc.itsm.util.MQConsumerUtil.<init>(MQConsumerUtil.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+Caused by: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateNameserverChannel(NettyRemotingClient.java:441)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateChannel(NettyRemotingClient.java:396)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1371)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1361)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:624)
+	... 34 common frames omitted
+2020-05-09 14:35:24,239 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:35:25,258 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:35:34,186 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:35:47,403 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:04,184 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:09,405 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:31,414 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:34,192 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:52,415 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:36:53,466 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:37:04,198 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:37:15,487 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:37:34,194 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:37:37,499 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:37:59,519 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:38:04,194 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:38:21,531 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:38:34,213 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:38:43,541 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:04,199 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:06,205 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:27,221 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:28,398 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:34,231 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:39:50,521 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:04,269 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:12,567 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:34,578 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:35,584 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:55,582 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:40:56,590 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:41:04,214 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:41:18,603 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:41:34,207 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:41:40,604 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:01,614 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:02,628 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:04,215 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:23,636 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:24,647 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:34,212 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:42:46,654 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:43:04,211 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:43:08,664 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:43:30,684 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:43:34,214 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:43:52,700 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:04,210 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:13,710 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:14,711 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:34,220 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:36,733 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:44:58,749 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:45:04,209 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:45:20,753 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:45:34,230 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:45:42,753 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:03,760 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:04,764 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:05,778 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:26,782 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:34,221 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:46:48,782 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:04,224 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:10,792 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:32,798 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:34,230 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:53,796 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:47:54,802 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:48:04,224 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:48:15,808 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:48:44,896 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 11372 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 14:48:44,899 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 14:48:44,900 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 14:48:46,814 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:48:46,970 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:48:47,144 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 14:48:47,144 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 14:48:47,145 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 14:48:47,147 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 14:48:47,316 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 14:48:47,520 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 14:48:47,795 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 14:48:52,212 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:48:53,226 restartedMain WARN (AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+2020-05-09 14:48:53,233 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:48:53,260 restartedMain INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 14:48:53,268 restartedMain INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-09 14:48:53,271 restartedMain INFO (DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-05-09 14:48:53,296 restartedMain ERROR (SpringApplication.java:826) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:681)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:511)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.updateTopicSubscribeInfoWhenSubscriptionChanged(DefaultMQPushConsumerImpl.java:868)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.start(DefaultMQPushConsumerImpl.java:649)
+	at org.apache.rocketmq.client.consumer.DefaultMQPushConsumer.start(DefaultMQPushConsumer.java:693)
+	at org.mof.cc.itsm.util.MQConsumerUtil.<init>(MQConsumerUtil.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+Caused by: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateNameserverChannel(NettyRemotingClient.java:441)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateChannel(NettyRemotingClient.java:396)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1371)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1361)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:624)
+	... 34 common frames omitted
+2020-05-09 14:49:11,218 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:49:12,239 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:49:21,223 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:49:34,259 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:49:51,220 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:49:56,295 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:50:18,317 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:50:21,224 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:50:39,333 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:50:40,343 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:50:51,228 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:02,349 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:21,225 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:23,361 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:24,378 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:46,414 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:51:51,223 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:07,404 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:08,412 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:21,214 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:30,423 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:51,220 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:52:53,236 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:15,258 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:21,227 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:36,265 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:37,273 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:51,227 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:58,277 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:53:59,291 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:54:20,294 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:54:21,300 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:54:22,315 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:54:43,312 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:54:51,230 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:04,316 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:05,325 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:21,232 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:26,345 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:27,363 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:48,369 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:49,375 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:55:51,244 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:11,413 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:21,231 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:33,413 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:51,235 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:54,419 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:56:55,435 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:57:17,442 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:57:21,237 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:57:38,446 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:57:39,455 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:57:51,238 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:00,454 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:01,451 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:21,237 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:22,453 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:23,455 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:45,459 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:58:51,237 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:07,478 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:21,239 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:29,496 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:50,501 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:51,506 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 14:59:52,512 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:00:13,521 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:00:21,249 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:00:35,529 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:00:51,250 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:00:57,546 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:01:19,567 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:01:21,251 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:01:41,577 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:01:51,251 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:03,585 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:21,251 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:25,595 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:46,616 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:47,621 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:02:51,260 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:09,634 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:21,257 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:30,637 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:31,641 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:51,250 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:03:53,663 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:04:15,686 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:04:21,257 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:04:37,696 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:04:51,259 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:04:59,709 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:05:21,724 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:05:22,735 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:05:43,742 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:05:51,264 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:04,748 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:05,761 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:21,273 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:27,769 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:49,787 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:06:51,264 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:07:11,807 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:07:21,275 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:07:33,822 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:07:51,259 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:07:55,831 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:08:16,840 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:08:17,851 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:08:21,269 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:08:39,858 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:08:51,269 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:09:01,871 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:09:21,283 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:09:23,881 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:09:45,892 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:09:51,271 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:10:07,897 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:10:21,272 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:10:29,925 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:10:51,967 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:10:52,977 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:11:13,978 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:11:21,267 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:11:35,991 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:11:51,288 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:11:58,009 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:12:20,066 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:12:21,274 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:12:41,074 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:12:42,091 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:30:27,142 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 3444 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:30:27,144 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:30:27,145 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:30:27,265 restartedMain WARN (AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.mof.cc.itsm.ItsmAppliction]; nested exception is java.lang.IllegalArgumentException: @ComponentScan ANNOTATION type filter requires an annotation type: class org.mof.cc.itsm.config.RocketMQConfig
+2020-05-09 15:30:27,286 restartedMain ERROR (SpringApplication.java:826) - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.mof.cc.itsm.ItsmAppliction]; nested exception is java.lang.IllegalArgumentException: @ComponentScan ANNOTATION type filter requires an annotation type: class org.mof.cc.itsm.config.RocketMQConfig
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:325)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:242)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: @ComponentScan ANNOTATION type filter requires an annotation type: class org.mof.cc.itsm.config.RocketMQConfig
+	at org.springframework.util.Assert.assignableCheckFailed(Assert.java:714)
+	at org.springframework.util.Assert.isAssignable(Assert.java:645)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.typeFiltersFor(ComponentScanAnnotationParser.java:142)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:102)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:290)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 18 common frames omitted
+2020-05-09 15:32:38,427 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 9432 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:32:38,431 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:32:38,432 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:32:40,706 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:32:40,854 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:32:41,049 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:32:41,050 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:32:41,051 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 15:32:41,051 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 15:32:41,225 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 15:32:41,462 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 15:32:41,795 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 15:32:46,662 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:32:47,671 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:32:47,673 restartedMain WARN (AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+2020-05-09 15:32:47,697 restartedMain INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 15:32:47,703 restartedMain INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-09 15:32:47,706 restartedMain INFO (DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-05-09 15:32:47,735 restartedMain ERROR (SpringApplication.java:826) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:681)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:511)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.updateTopicSubscribeInfoWhenSubscriptionChanged(DefaultMQPushConsumerImpl.java:868)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.start(DefaultMQPushConsumerImpl.java:649)
+	at org.apache.rocketmq.client.consumer.DefaultMQPushConsumer.start(DefaultMQPushConsumer.java:693)
+	at org.mof.cc.itsm.util.MQConsumerUtil.<init>(MQConsumerUtil.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+Caused by: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateNameserverChannel(NettyRemotingClient.java:441)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateChannel(NettyRemotingClient.java:396)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1371)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1361)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:624)
+	... 34 common frames omitted
+2020-05-09 15:33:06,375 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:33:15,356 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:33:28,403 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:33:45,346 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:33:50,419 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:12,437 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:15,364 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:34,433 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:45,357 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:55,440 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:34:56,444 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:35:15,354 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:35:18,518 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:35:39,487 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:35:40,494 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:35:45,355 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:02,534 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:15,365 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:23,565 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:24,578 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:45,355 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:36:47,374 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:37:08,374 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:37:09,384 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:37:21,804 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 12232 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:37:21,808 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:37:21,808 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:37:23,606 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:37:23,759 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:37:23,984 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:37:23,984 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:37:23,985 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 15:37:23,986 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 15:37:24,140 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 15:37:24,327 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 15:37:24,581 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 15:37:29,833 restartedMain WARN (AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+2020-05-09 15:37:29,834 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:37:29,875 restartedMain INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 15:37:29,883 restartedMain INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-09 15:37:29,887 restartedMain INFO (DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-05-09 15:37:29,916 restartedMain ERROR (SpringApplication.java:826) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'MQConsumerUtil' defined in file [C:\Users\Young\git\itsm\itsm\target\classes\org\mof\cc\itsm\util\MQConsumerUtil.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mof.cc.itsm.util.MQConsumerUtil]: Constructor threw exception; nested exception is java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:681)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:511)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.updateTopicSubscribeInfoWhenSubscriptionChanged(DefaultMQPushConsumerImpl.java:868)
+	at org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl.start(DefaultMQPushConsumerImpl.java:649)
+	at org.apache.rocketmq.client.consumer.DefaultMQPushConsumer.start(DefaultMQPushConsumer.java:693)
+	at org.mof.cc.itsm.util.MQConsumerUtil.<init>(MQConsumerUtil.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+Caused by: org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to [127.0.0.1:9876] failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateNameserverChannel(NettyRemotingClient.java:441)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.getAndCreateChannel(NettyRemotingClient.java:396)
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1371)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1361)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:624)
+	... 34 common frames omitted
+2020-05-09 15:37:48,754 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:37:57,759 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:09,757 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:10,777 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:20,851 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 12224 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:38:20,853 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:38:20,854 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:38:22,530 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:38:22,663 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:38:22,850 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:38:22,850 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:38:22,851 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 15:38:22,852 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 15:38:23,006 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 15:38:23,102 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 15:38:23,434 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 15:38:26,410 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-09 15:38:26,884 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-09 15:38:26,900 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-09 15:38:26,900 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-09 15:38:26,901 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-09 15:38:26,902 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-09 15:38:26,903 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-09 15:38:26,903 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-09 15:38:26,903 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2b5d9461
+2020-05-09 15:38:27,015 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-09 15:38:27,048 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-09 15:38:27,100 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-09 15:38:27,373 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-09 15:38:27,375 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-09 15:38:27,376 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-09 15:38:27,400 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-09 15:38:27,409 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:38:27,433 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 7.159 seconds (JVM running for 8.786)
+2020-05-09 15:38:27,658 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:27,754 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:32,785 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:54,790 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:56,703 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:57,782 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:38:59,759 Thread-12 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 15:38:59,762 Thread-12 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-09 15:38:59,763 Thread-12 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 15:38:59,764 Thread-12 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-09 15:38:59,848 Thread-12 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 15:38:59,854 Thread-12 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-09 15:39:00,590 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 12224 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:39:00,591 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:39:00,591 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:39:01,338 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:01,379 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-05-09 15:39:01,381 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:01,600 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:01,600 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:39:01,601 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 15:39:01,601 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 15:39:01,649 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 15:39:01,679 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 15:39:01,747 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-05-09 15:39:02,356 restartedMain ERROR (MQProducerUtil.java:42) - 生产者启动失败：{}
+org.apache.rocketmq.client.exception.MQClientException: The producer group[test_producer] has been created before, specify another name please.
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.start(DefaultMQProducerImpl.java:195)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.start(DefaultMQProducerImpl.java:175)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.start(DefaultMQProducer.java:271)
+	at org.mof.cc.itsm.util.MQProducerUtil.start(MQProducerUtil.java:40)
+	at org.mof.cc.itsm.util.MQProducerUtil.<init>(MQProducerUtil.java:33)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.mof.cc.itsm.ItsmAppliction.main(ItsmAppliction.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-05-09 15:39:02,536 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-09 15:39:02,666 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-09 15:39:02,669 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-09 15:39:02,669 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-09 15:39:02,671 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-09 15:39:02,671 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-09 15:39:02,672 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-09 15:39:02,672 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-09 15:39:02,673 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@25138fd4
+2020-05-09 15:39:02,760 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-09 15:39:02,761 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-09 15:39:02,768 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-09 15:39:02,868 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-09 15:39:02,871 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-09 15:39:02,873 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-09 15:39:02,882 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-09 15:39:02,886 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:39:02,893 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 2.387 seconds (JVM running for 44.244)
+2020-05-09 15:39:06,132 RMI TCP Connection(5)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 15:39:06,135 RMI TCP Connection(5)-127.0.0.1 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-09 15:39:06,136 RMI TCP Connection(5)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 15:39:06,138 RMI TCP Connection(5)-127.0.0.1 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-09 15:39:06,145 RMI TCP Connection(5)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-05-09 15:39:06,149 RMI TCP Connection(5)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-05-09 15:39:39,252 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 13760 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-09 15:39:39,256 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-09 15:39:39,256 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-09 15:39:40,929 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:41,080 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:41,263 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-09 15:39:41,264 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:39:41,264 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-09 15:39:41,265 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-09 15:39:41,418 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-09 15:39:41,614 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-09 15:39:41,878 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-09 15:39:44,854 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-09 15:39:45,312 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-09 15:39:45,324 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-09 15:39:45,325 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-09 15:39:45,326 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-09 15:39:45,327 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-09 15:39:45,327 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-09 15:39:45,327 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-09 15:39:45,328 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3c7ac057
+2020-05-09 15:39:45,441 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-09 15:39:45,459 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-09 15:39:45,499 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-09 15:39:45,738 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-09 15:39:45,740 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-09 15:39:45,742 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-09 15:39:45,762 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-09 15:39:45,770 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8081"]
+2020-05-09 15:39:45,790 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 7.138 seconds (JVM running for 8.616)
+2020-05-09 15:39:46,233 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:39:57,370 http-nio-8081-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-09 15:39:57,412 http-nio-8081-exec-2 INFO (EventController.java:68) - 处理查询所有事件请求
+2020-05-09 15:39:57,756 http-nio-8081-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,finish_time,evaluate_time,customer_evaluation,event_process,bak2,bak3,bak1,operator_phone,caller_department,operator_name,caller_name,caller_contact,event_state,event_time,caller_phone,event,operator_id FROM t_event 
+2020-05-09 15:39:57,878 http-nio-8081-exec-2 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 
+2020-05-09 15:39:57,948 http-nio-8081-exec-2 DEBUG (BaseJdbcLogger.java:143) - <==      Total: 32
+2020-05-09 15:40:15,094 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:40:45,117 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:41:15,118 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:41:45,102 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:42:15,107 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:42:45,101 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:43:15,108 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:43:45,119 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:44:15,112 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:44:45,111 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:45:15,107 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:45:45,114 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:46:15,111 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:46:45,116 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:47:15,134 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:47:45,149 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:48:15,132 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:48:45,117 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:49:15,131 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:49:45,122 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:50:15,122 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:50:45,124 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:51:15,135 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:51:45,141 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:52:15,136 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:52:45,150 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:53:15,131 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:53:45,133 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:54:15,136 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:54:45,134 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:55:15,146 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:55:45,145 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:56:15,151 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:56:45,151 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:57:15,160 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:57:45,144 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:58:15,145 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:58:45,157 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:59:15,159 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 15:59:45,162 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:00:15,151 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:00:45,162 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:01:15,148 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:01:45,153 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:02:15,148 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:02:45,150 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:03:15,171 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:03:45,168 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:04:15,167 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:04:45,175 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:05:15,174 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:05:45,177 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:06:15,166 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:06:45,173 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:07:15,170 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:07:45,180 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:08:15,183 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:08:45,184 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:09:15,180 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:09:45,185 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:10:15,183 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:10:45,179 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:11:15,184 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:11:45,187 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:12:15,210 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:12:45,185 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:13:15,191 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:13:45,179 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:14:15,197 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:14:45,200 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:15:15,201 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:15:45,192 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:16:15,194 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:16:45,209 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:17:15,201 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:17:45,202 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:18:15,201 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:18:45,211 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:19:15,203 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:19:45,213 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:20:15,209 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:20:45,222 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:21:15,204 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:21:45,212 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:22:15,223 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:22:45,211 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:23:15,214 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:23:45,222 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:24:15,226 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:24:45,229 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:25:15,228 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:25:45,232 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:26:15,223 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:26:45,233 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:27:15,226 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:27:45,227 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:28:15,237 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:28:45,249 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:29:15,236 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:29:45,232 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:30:15,241 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:30:45,245 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:31:15,232 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:31:45,248 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:32:15,247 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:32:45,250 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:33:15,239 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:33:45,243 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:34:15,244 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:34:45,263 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:35:15,254 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:35:45,249 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:36:15,251 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:36:45,259 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:37:15,262 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:37:45,250 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:38:15,264 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:38:45,266 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:39:15,256 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:39:45,261 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:40:15,262 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:40:45,263 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:41:15,265 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:41:45,274 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:42:15,267 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:42:45,269 NettyClientSelector_1 INFO (Slf4jLoggerFactory.java:95) - closeChannel: close the connection to remote address[] result: true
+2020-05-09 16:42:48,314 RMI TCP Connection(68)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 16:42:48,317 RMI TCP Connection(68)-127.0.0.1 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-09 16:42:48,318 RMI TCP Connection(68)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-09 16:42:48,319 RMI TCP Connection(68)-127.0.0.1 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-09 16:42:48,341 RMI TCP Connection(68)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-09 16:42:48,343 RMI TCP Connection(68)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
