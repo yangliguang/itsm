@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
  * @author yangliguang
  * @since 2020年5月8日 下午3:07:16
  */
+@Service
 public class MQConsumerUtil {
 	
 	private static final Logger log = LoggerFactory.getLogger(MQConsumerUtil.class);
