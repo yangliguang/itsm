@@ -1,5 +1,7 @@
 package org.mof.cc.itsm.service;
 
+import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
+import org.apache.rocketmq.client.exception.MQClientException;
 import org.mof.cc.itsm.entity.ExchangeMessage;
 
 /**
@@ -15,16 +17,18 @@ public interface ExchangeService {
 	/**
 	 * 委托挂单
 	 */
-	public boolean postMessage(ExchangeMessage em);
+	public String postMessage(ExchangeMessage em);
+	
 	
 	/**
-	 * 消费者示例
-	 * @return
+	 * 撮合交易（手工触发）
+	 * @throws MQClientException 
 	 */
-	public boolean getMessage(String messageId);
+	public void dealMessage() throws MQClientException;
 	
 	/**
-	 * 撮合交易（每隔一段时间自动执行）
+	 * 撮合交易（自动触发）
+	 * @throws MQClientException 
 	 */
-	public boolean dealMessage();
+	public void dealMessageAuto() throws MQClientException;
 }

@@ -141,6 +141,16 @@
             <artifactId>rocketmq-client</artifactId>
             <version>4.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.openmessaging</groupId>
+            <artifactId>openmessaging-api</artifactId>
+            <version>0.3.1-alpha</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-openmessaging</artifactId>
+            <version>4.7.0</version>
+        </dependency>
 
 
 	</dependencies>

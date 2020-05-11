@@ -46,4 +46,19 @@ public class ExchangeController {
 		}
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("success");
 	}
+	
+	// 手工触发一次撮合
+		@ApiOperation(value = "手工撮合")
+		@RequestMapping(value = "/hand", method = RequestMethod.GET)
+		public ResponseEntity<String> dealMessage() {
+			log.info("===开始撮合交易====");
+			try {
+				exchangeService.dealMessage();
+				return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+			} catch (Exception e) {
+				e.printStackTrace();
+				log.error("手工撮合失败：{}", e);
+			}
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("success");
+		}
 }
