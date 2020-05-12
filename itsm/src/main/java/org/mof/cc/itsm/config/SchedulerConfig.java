@@ -13,7 +13,7 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 
 /**
  * <p>
- * quartz全局配置
+ * quartz全局配置(持久化示例)
  * </p>
  *
  * @author yangliguang

@@ -2,7 +2,7 @@
 spring:
     redis:
         host: 127.0.0.1
-        port: 16379
+        port: 6379
         #Redis服务器连接密码（默认为空)
         password:   
         #连接超时时间（毫秒）
