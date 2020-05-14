@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.mof.cc.itsm.config.RedisConfig;
-import org.mof.cc.itsm.entity.SMSCount;
-import org.mof.cc.itsm.entity.SMSMessage;
+import org.mof.cc.itsm.domain.SMSCount;
+import org.mof.cc.itsm.domain.SMSMessage;
 import org.mof.cc.itsm.service.SMSMessageService;
 import org.mof.cc.itsm.util.RedisUtil;
 import org.slf4j.Logger;

@@ -1,6 +1,7 @@
 package org.mof.cc.itsm.controller;
 
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -123,6 +124,13 @@ private static final Logger log = LoggerFactory.getLogger(OperLogController.clas
 		}
 		//500
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+	}
+	
+	@GetMapping(value = "/operlogs")
+	@ApiOperation(value = "查询所有日志记录")
+	public Object findAll() {
+		log.info("处理查询所有日志请求");
+		return operLogService.findAll();
 	}
 }
 

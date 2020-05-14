@@ -39,5 +39,5 @@ public class DemoUserController {
 	public List<DemoUser> list() {
 		return userService.findAll();
 	}
-
+	
 }

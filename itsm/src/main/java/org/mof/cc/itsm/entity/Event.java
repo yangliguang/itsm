@@ -5,6 +5,9 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
+
+import org.mof.cc.itsm.domain.ModelWithPage;
+
 import java.io.Serializable;
 import java.sql.Timestamp;
 
@@ -24,9 +27,10 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("t_event")
-public class Event extends Model<Event> {
+//public class Event extends ModelWithPage<Event> {
+public class Event {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 0;
 
 	/**
 	 * ID，自增主键
@@ -119,9 +123,5 @@ public class Event extends Model<Event> {
 	 */
 	private String bak3;
 
-	@Override
-	protected Serializable pkVal() {
-		return this.id;
-	}
 
 }

@@ -1,7 +1,7 @@
 package org.mof.cc.itsm.service;
 
-import org.mof.cc.itsm.entity.SMSCount;
-import org.mof.cc.itsm.entity.SMSMessage;
+import org.mof.cc.itsm.domain.SMSCount;
+import org.mof.cc.itsm.domain.SMSMessage;
 
 /**
  * <p>

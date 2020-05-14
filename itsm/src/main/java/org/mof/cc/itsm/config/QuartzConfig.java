@@ -48,7 +48,7 @@ public class QuartzConfig {
 	@Bean
     public Trigger printLogJobTrigger(){
         SimpleScheduleBuilder scheduleBuilder = SimpleScheduleBuilder.simpleSchedule()
-                .withIntervalInSeconds(10) //每10秒执行一次
+                .withIntervalInSeconds(1000) //每10秒执行一次
                 .repeatForever(); //永久重复，一直执行下去
         return TriggerBuilder.newTrigger()
                 .forJob(printLogJobDetail())
@@ -75,7 +75,7 @@ public class QuartzConfig {
 	public Trigger smsJobtrigger(){
 	    //JobDetail的bean注入不能省略
 	    SimpleScheduleBuilder scheduleBuilder = SimpleScheduleBuilder.simpleSchedule()
-	            .withIntervalInSeconds(10) //每2秒执行一次
+	            .withIntervalInSeconds(1000) //每2秒执行一次
 	            .repeatForever(); //永久重复，一直执行下去
 	    return TriggerBuilder.newTrigger()
 	            .forJob(smsJobDetail())

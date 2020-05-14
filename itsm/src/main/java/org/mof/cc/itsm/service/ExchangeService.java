@@ -2,7 +2,7 @@ package org.mof.cc.itsm.service;
 
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.exception.MQClientException;
-import org.mof.cc.itsm.entity.ExchangeMessage;
+import org.mof.cc.itsm.domain.ExchangeMessage;
 
 /**
  * <p>

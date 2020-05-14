@@ -1,5 +1,7 @@
 package org.mof.cc.itsm.service.impl;
 
+import java.util.List;
+
 import org.mof.cc.itsm.entity.OperLog;
 import org.mof.cc.itsm.entity.OperLog;
 import org.mof.cc.itsm.mapper.OperLogMapper;
@@ -19,6 +21,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OperLogServiceImpl extends ServiceImpl<OperLogMapper, OperLog> implements OperLogService {
+	
 	@Override
 	public OperLog queryOperLogById(int id) {
 		return super.getById(id);
@@ -39,5 +42,12 @@ public class OperLogServiceImpl extends ServiceImpl<OperLogMapper, OperLog> impl
 	
 	public void deleteOperLog(int id) {
 		super.removeById(id);
+	}
+	
+	/**
+	 * 查询所有日志记录
+	 */
+	public List<OperLog> findAll() {
+		return list();
 	}
 }

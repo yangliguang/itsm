@@ -4,12 +4,15 @@ import java.util.List;
 
 import org.mof.cc.itsm.dao.DemoUserDao;
 import org.mof.cc.itsm.entity.DemoUser;
+import org.mof.cc.itsm.entity.User;
+import org.mof.cc.itsm.mapper.UserMapper;
 import org.mof.cc.itsm.service.DemoUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 
@@ -51,5 +54,6 @@ public class DemoUserServiceImpl implements DemoUserService {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
 
 }

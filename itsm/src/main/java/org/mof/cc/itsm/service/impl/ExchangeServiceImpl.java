@@ -15,7 +15,7 @@ import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
 import org.apache.rocketmq.common.message.Message;
 import org.mof.cc.itsm.config.RocketMQConfig;
-import org.mof.cc.itsm.entity.ExchangeMessage;
+import org.mof.cc.itsm.domain.ExchangeMessage;
 import org.mof.cc.itsm.service.ExchangeService;
 import org.mof.cc.itsm.util.MQConsumerUtil;
 import org.mof.cc.itsm.util.MQProducerUtil;

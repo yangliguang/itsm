@@ -1,6 +1,6 @@
 package org.mof.cc.itsm.controller;
 
-import org.mof.cc.itsm.entity.ExchangeMessage;
+import org.mof.cc.itsm.domain.ExchangeMessage;
 import org.mof.cc.itsm.service.ExchangeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

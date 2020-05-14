@@ -2,6 +2,8 @@ package org.mof.cc.itsm.service.impl;
 
 import java.util.Random;
 
+import javax.annotation.Resource;
+
 import org.mof.cc.itsm.service.VerificationCodeService;
 import org.mof.cc.itsm.util.RedisUtil;
 import org.slf4j.Logger;
@@ -22,7 +24,7 @@ public class VerificationCodeServiceImpl implements VerificationCodeService{
 	
 	private static final Logger log = LoggerFactory.getLogger(VerificationCodeService.class);
 
-	@Autowired
+	@Resource
 	private RedisUtil redisUtil;
 
 	@Override

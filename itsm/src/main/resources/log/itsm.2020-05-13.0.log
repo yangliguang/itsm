@@ -1,0 +1,274 @@
+2020-05-13 09:25:01,494 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 10104 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-13 09:25:01,504 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-13 09:25:01,505 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-13 09:25:04,325 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:04,498 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:04,712 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:04,713 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:25:04,713 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-13 09:25:04,714 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-13 09:25:05,153 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-13 09:25:05,815 restartedMain INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-13 09:25:05,819 restartedMain INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-13 09:25:06,707 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-13 09:25:07,051 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-13 09:25:08,514 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-13 09:25:09,014 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-13 09:25:09,027 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-13 09:25:09,028 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-13 09:25:09,029 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-13 09:25:09,030 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-13 09:25:09,031 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-13 09:25:09,031 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-13 09:25:09,031 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@144d5ea3
+2020-05-13 09:25:09,157 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-13 09:25:09,188 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-13 09:25:09,243 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-13 09:25:09,853 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-13 09:25:09,855 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-13 09:25:09,857 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-13 09:25:09,888 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-13 09:25:09,902 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:25:09,930 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 9.247 seconds (JVM running for 10.706)
+2020-05-13 09:25:28,849 Thread-6 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 09:25:28,851 Thread-6 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-13 09:25:28,851 Thread-6 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 09:25:28,852 Thread-6 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-13 09:25:28,866 Thread-6 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-13 09:25:28,876 Thread-6 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-13 09:25:30,699 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 10104 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-13 09:25:30,699 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-13 09:25:30,699 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-13 09:25:31,482 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:31,517 restartedMain WARN (DirectJDKLog.java:173) - The MBean registry cannot be disabled because it has already been initialised
+2020-05-13 09:25:31,520 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:31,747 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:25:31,747 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:25:31,748 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-13 09:25:31,748 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-13 09:25:31,797 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-13 09:25:31,861 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-13 09:25:31,924 restartedMain INFO (DruidDataSource.java:994) - {dataSource-2} inited
+2020-05-13 09:25:32,328 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-13 09:25:32,455 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-13 09:25:32,457 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-13 09:25:32,457 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-13 09:25:32,457 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-13 09:25:32,457 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-13 09:25:32,458 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-13 09:25:32,458 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-13 09:25:32,458 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b993d80
+2020-05-13 09:25:32,549 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-13 09:25:32,550 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-13 09:25:32,558 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-13 09:25:32,652 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-13 09:25:32,654 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-13 09:25:32,656 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-13 09:25:32,664 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-13 09:25:32,672 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:25:32,682 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 2.068 seconds (JVM running for 33.46)
+2020-05-13 09:25:57,797 http-nio-8080-exec-1 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-13 09:26:16,528 http-nio-8080-exec-4 INFO (SMSMessageServiceImpl.java:137) - 从队列获取消息成功=
+2020-05-13 09:26:16,543 http-nio-8080-exec-4 INFO (SMSMessageServiceImpl.java:142) - 设置队列成功=[{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333176516}]
+2020-05-13 09:26:17,795 http-nio-8080-exec-3 INFO (SMSMessageServiceImpl.java:137) - 从队列获取消息成功=[{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333176516}]
+2020-05-13 09:26:17,806 http-nio-8080-exec-3 INFO (SMSMessageServiceImpl.java:142) - 设置队列成功=[{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333176516},{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333177789}]
+2020-05-13 09:26:18,596 http-nio-8080-exec-5 INFO (SMSMessageServiceImpl.java:137) - 从队列获取消息成功=[{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333176516},{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333177789}]
+2020-05-13 09:26:18,604 http-nio-8080-exec-5 INFO (SMSMessageServiceImpl.java:142) - 设置队列成功=[{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333176516},{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333177789},{"priority":1,"receiverPhone":"15201441993","content":"这是一条优先级为2的短信","createTime":1589333178593}]
+2020-05-13 09:26:42,505 http-nio-8080-exec-6 INFO (SMSMessageServiceImpl.java:240) - 发送一条短信成功=SMSMessage(priority=1, receiverPhone=15201441993, content=这是一条优先级为2的短信, createTime=Wed May 13 09:26:16 CST 2020)
+2020-05-13 09:26:43,869 http-nio-8080-exec-7 INFO (SMSMessageServiceImpl.java:230) - 发送一条短信成功=SMSMessage(priority=1, receiverPhone=15201441993, content=这是一条优先级为2的短信, createTime=Wed May 13 09:26:17 CST 2020)
+2020-05-13 09:26:44,798 http-nio-8080-exec-8 INFO (SMSMessageServiceImpl.java:230) - 发送一条短信成功=SMSMessage(priority=1, receiverPhone=15201441993, content=这是一条优先级为2的短信, createTime=Wed May 13 09:26:18 CST 2020)
+2020-05-13 09:28:01,232 RMI TCP Connection(8)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 09:28:01,233 RMI TCP Connection(8)-127.0.0.1 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-13 09:28:01,234 RMI TCP Connection(8)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 09:28:01,234 RMI TCP Connection(8)-127.0.0.1 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-13 09:28:01,238 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-2} closing ...
+2020-05-13 09:28:01,242 RMI TCP Connection(8)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-2} closed
+2020-05-13 09:39:35,786 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 9656 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-13 09:39:35,790 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-13 09:39:35,791 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-13 09:39:37,539 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:39:37,726 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:39:37,901 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 09:39:37,902 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:39:37,902 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-13 09:39:37,903 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-13 09:39:38,069 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-13 09:39:38,641 restartedMain INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-13 09:39:38,644 restartedMain INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-13 09:39:39,563 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-13 09:39:39,894 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-13 09:39:41,082 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-13 09:39:41,468 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-13 09:39:41,479 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-13 09:39:41,480 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-13 09:39:41,481 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-13 09:39:41,482 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-13 09:39:41,483 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-13 09:39:41,483 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-13 09:39:41,484 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@39c16353
+2020-05-13 09:39:41,597 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-13 09:39:41,618 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-13 09:39:41,660 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-13 09:39:42,145 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-13 09:39:42,146 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-13 09:39:42,148 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-13 09:39:42,167 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-13 09:39:42,184 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-13 09:39:42,213 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 7.186 seconds (JVM running for 8.437)
+2020-05-13 09:40:02,331 http-nio-8080-exec-2 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-13 09:40:15,273 http-nio-8080-exec-3 INFO (VerificationCodeServiceImpl.java:35) - 生成验证码1：505080
+2020-05-13 09:40:37,928 http-nio-8080-exec-9 INFO (VerificationCodeServiceImpl.java:35) - 生成验证码1：951068
+2020-05-13 14:49:17,736 RMI TCP Connection(316)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 14:49:17,770 RMI TCP Connection(316)-127.0.0.1 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-13 14:49:17,773 RMI TCP Connection(316)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 14:49:17,774 RMI TCP Connection(316)-127.0.0.1 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-13 14:49:17,821 RMI TCP Connection(316)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-13 14:49:17,862 RMI TCP Connection(316)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-13 19:12:37,844 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 13764 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-13 19:12:37,848 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-13 19:12:37,849 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-13 19:12:40,550 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:12:40,770 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:12:41,076 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:12:41,077 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-13 19:12:41,079 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-13 19:12:41,079 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-13 19:12:41,440 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-13 19:12:42,270 restartedMain INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-13 19:12:42,275 restartedMain INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-13 19:12:43,420 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-13 19:12:43,918 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-13 19:12:45,715 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-13 19:12:46,317 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-13 19:12:46,334 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-13 19:12:46,334 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-13 19:12:46,336 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-13 19:12:46,338 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-13 19:12:46,339 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-13 19:12:46,339 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-13 19:12:46,339 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@a44c45
+2020-05-13 19:12:46,506 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-13 19:12:46,544 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-13 19:12:46,602 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-13 19:12:47,191 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-13 19:12:47,193 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-13 19:12:47,195 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-13 19:12:47,223 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-13 19:12:47,238 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-13 19:12:47,241 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:12:47,248 restartedMain INFO (DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+2020-05-13 19:12:47,248 restartedMain INFO (DirectJDKLog.java:173) - Stopping service [Tomcat]
+2020-05-13 19:12:47,259 restartedMain INFO (DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+2020-05-13 19:12:47,259 restartedMain INFO (DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+2020-05-13 19:12:47,271 restartedMain ERROR (LoggingFailureAnalysisReporter.java:40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-05-13 19:12:47,275 restartedMain INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 19:12:47,276 restartedMain INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-13 19:12:47,277 restartedMain INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 19:12:47,277 restartedMain INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-13 19:12:47,284 restartedMain INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-13 19:12:47,290 restartedMain INFO (DruidDataSource.java:2101) - {dataSource-1} closed
+2020-05-13 19:13:44,013 restartedMain INFO (StartupInfoLogger.java:55) - Starting ItsmAppliction on Young-PC with PID 10628 (C:\Users\Young\git\itsm\itsm\target\classes started by Young in C:\Users\Young\git\itsm\itsm)
+2020-05-13 19:13:44,017 restartedMain DEBUG (StartupInfoLogger.java:56) - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-13 19:13:44,018 restartedMain INFO (SpringApplication.java:655) - The following profiles are active: dev-druid,dev-redis
+2020-05-13 19:13:46,233 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:13:46,453 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:13:46,738 restartedMain ERROR (DirectJDKLog.java:173) - An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-05-13 19:13:46,738 restartedMain INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8081"]
+2020-05-13 19:13:46,739 restartedMain INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2020-05-13 19:13:46,740 restartedMain INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-13 19:13:47,044 restartedMain INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2020-05-13 19:13:47,685 restartedMain INFO (EpollProvider.java:68) - Starting without optional epoll library
+2020-05-13 19:13:47,690 restartedMain INFO (KqueueProvider.java:70) - Starting without optional kqueue library
+2020-05-13 19:13:48,743 restartedMain INFO (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2020-05-13 19:13:49,074 restartedMain INFO (DruidDataSource.java:994) - {dataSource-1} inited
+2020-05-13 19:13:50,620 restartedMain INFO (PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-13 19:13:51,146 restartedMain INFO (StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+2020-05-13 19:13:51,160 restartedMain INFO (SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-13 19:13:51,160 restartedMain INFO (QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+2020-05-13 19:13:51,162 restartedMain INFO (RAMJobStore.java:155) - RAMJobStore initialized.
+2020-05-13 19:13:51,163 restartedMain INFO (QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-13 19:13:51,164 restartedMain INFO (StdSchedulerFactory.java:1362) - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-13 19:13:51,164 restartedMain INFO (StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+2020-05-13 19:13:51,164 restartedMain INFO (QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@41460d22
+2020-05-13 19:13:51,296 restartedMain INFO (DocumentationPluginsBootstrapper.java:160) - Context refreshed
+2020-05-13 19:13:51,320 restartedMain INFO (DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+2020-05-13 19:13:51,375 restartedMain INFO (ApiListingReferenceScanner.java:41) - Scanning for api listing references
+2020-05-13 19:13:51,970 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_1
+2020-05-13 19:13:51,972 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: getUserByNameUsingGET_2
+2020-05-13 19:13:51,974 restartedMain INFO (CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+2020-05-13 19:13:52,000 restartedMain INFO (QuartzScheduler.java:547) - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-13 19:13:52,017 restartedMain INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8081"]
+2020-05-13 19:13:52,054 restartedMain INFO (StartupInfoLogger.java:61) - Started ItsmAppliction in 8.908 seconds (JVM running for 10.58)
+2020-05-13 19:13:55,854 http-nio-8081-exec-3 INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-13 19:13:55,907 http-nio-8081-exec-3 INFO (EventController.java:68) - 处理查询所有事件请求
+2020-05-13 19:13:56,020 http-nio-8081-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: SELECT id,finish_time,evaluate_time,customer_evaluation,event_process,bak2,bak3,bak1,operator_phone,caller_department,operator_name,caller_name,caller_contact,event_state,event_time,caller_phone,event,operator_id FROM t_event 
+2020-05-13 19:13:56,183 http-nio-8081-exec-3 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 
+2020-05-13 19:13:56,246 http-nio-8081-exec-3 DEBUG (BaseJdbcLogger.java:143) - <==      Total: 32
+2020-05-13 19:14:09,503 http-nio-8081-exec-4 INFO (EventController.java:38) - 处理单个事件插入请求，待插入数据：Event(id=null, event=系统无法登陆, callerName=null, callerDepartment=null, callerPhone=null, callerContact=null, operatorId=null, operatorPhone=null, operatorName=null, eventTime=null, eventProcess=null, eventState=null, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-05-13 19:14:09,510 http-nio-8081-exec-4 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_event ( event ) VALUES ( ? ) 
+2020-05-13 19:14:09,530 http-nio-8081-exec-4 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 系统无法登陆(String)
+2020-05-13 19:14:09,547 http-nio-8081-exec-4 DEBUG (BaseJdbcLogger.java:143) - <==    Updates: 1
+2020-05-13 19:14:09,552 http-nio-8081-exec-4 INFO (EventController.java:41) - 成功插入一条记录：Event(id=99, event=系统无法登陆, callerName=null, callerDepartment=null, callerPhone=null, callerContact=null, operatorId=null, operatorPhone=null, operatorName=null, eventTime=null, eventProcess=null, eventState=null, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)
+2020-05-13 19:14:20,422 http-nio-8081-exec-5 INFO (EventController.java:53) - 处理事件批量插入请求，待插入6条数据：[Event(id=null, event=系统无法登陆, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=人员无法维护, callerName=李四, callerDepartment=青海财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=2, operatorPhone=88179997-02, operatorName=fuys, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=收不到审批, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=支付失败, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=无法清算, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null), Event(id=null, event=报表问题, callerName=张三, callerDepartment=大连财政厅, callerPhone=0411-5335610, callerContact=15253356100, operatorId=1, operatorPhone=88179997-01, operatorName=yanglg, eventTime=null, eventProcess=提交给技术专家分析, eventState=0, finishTime=null, customerEvaluation=null, evaluateTime=null, bak1=null, bak2=null, bak3=null)]
+2020-05-13 19:14:20,425 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==>  Preparing: INSERT INTO t_event ( event_process, operator_phone, caller_department, operator_name, caller_name, caller_contact, event_state, caller_phone, event, operator_id ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-05-13 19:14:20,443 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-01(String), 大连财政厅(String), yanglg(String), 张三(String), 15253356100(String), 0(Integer), 0411-5335610(String), 系统无法登陆(String), 1(Integer)
+2020-05-13 19:14:20,445 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-02(String), 青海财政厅(String), fuys(String), 李四(String), 15253356100(String), 0(Integer), 0411-5335610(String), 人员无法维护(String), 2(Integer)
+2020-05-13 19:14:20,447 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-01(String), 大连财政厅(String), yanglg(String), 张三(String), 15253356100(String), 0(Integer), 0411-5335610(String), 收不到审批(String), 1(Integer)
+2020-05-13 19:14:20,450 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-01(String), 大连财政厅(String), yanglg(String), 张三(String), 15253356100(String), 0(Integer), 0411-5335610(String), 支付失败(String), 1(Integer)
+2020-05-13 19:14:20,452 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-01(String), 大连财政厅(String), yanglg(String), 张三(String), 15253356100(String), 0(Integer), 0411-5335610(String), 无法清算(String), 1(Integer)
+2020-05-13 19:14:20,454 http-nio-8081-exec-5 DEBUG (BaseJdbcLogger.java:143) - ==> Parameters: 提交给技术专家分析(String), 88179997-01(String), 大连财政厅(String), yanglg(String), 张三(String), 15253356100(String), 0(Integer), 0411-5335610(String), 报表问题(String), 1(Integer)
+2020-05-13 19:14:20,477 http-nio-8081-exec-5 INFO (EventController.java:56) - 成功插入6条事件
+2020-05-13 19:37:38,501 RMI TCP Connection(29)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 19:37:38,504 RMI TCP Connection(29)-127.0.0.1 INFO (QuartzScheduler.java:666) - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-13 19:37:38,505 RMI TCP Connection(29)-127.0.0.1 INFO (QuartzScheduler.java:585) - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-13 19:37:38,507 RMI TCP Connection(29)-127.0.0.1 INFO (QuartzScheduler.java:740) - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-13 19:37:38,513 RMI TCP Connection(29)-127.0.0.1 INFO (DruidDataSource.java:2029) - {dataSource-1} closing ...
+2020-05-13 19:37:38,515 RMI TCP Connection(29)-127.0.0.1 INFO (DruidDataSource.java:2101) - {dataSource-1} closed

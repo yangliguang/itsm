@@ -1,4 +1,4 @@
-package org.mof.cc.itsm.entity;
+package org.mof.cc.itsm.domain;
 /**
  * <p>
  * 短信积压情况实例

@@ -2,11 +2,13 @@
 spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
-        driverClassName: com.mysql.cj.jdbc.Driver
+        #driverClassName: com.mysql.cj.jdbc.Driver
+        driverClassName: oracle.jdbc.OracleDriver
         druid:
-            url: jdbc:mysql://localhost:3306/callcenter?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-            username: root
-            password: admin
+            # mysql数据库
+            # url: jdbc:mysql://localhost:3306/callcenter?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+            # username: root
+            # password: admin
             
             # 主库数据源
             # master:
@@ -20,6 +22,13 @@ spring:
             #    url: 
             #    username: 
             #    password: 
+            
+            # oracle数据库
+            url: jdbc:oracle:thin:@localhost:1521:XE
+            username: ccroot
+            password: ccadmin
+            
+            #以下连接池配置为mysql和oracle通用
             # 初始连接数
             initialSize: 5
             # 最小连接池数量

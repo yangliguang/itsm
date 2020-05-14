@@ -3,16 +3,18 @@ package org.mof.cc.itsm.service;
 import java.util.List;
 
 import org.mof.cc.itsm.entity.DemoUser;
+import org.springframework.web.bind.annotation.RequestBody;
 
 public interface DemoUserService {
 
-	public List<DemoUser> findAll();
+	List<DemoUser> findAll();
 
-	public DemoUser findbyUsername(DemoUser u);
+	DemoUser findbyUsername(DemoUser u);
 
-	public int add(DemoUser u);
+	int add(DemoUser u);
 
-	public int delete(DemoUser u);
+	int delete(DemoUser u);
 
-	public int update(DemoUser u);
+	int update(DemoUser u);
+	
 }
